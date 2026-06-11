@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deployed ML Projects Showcase</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- Phosphor Icons for modern, clean icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+
+<body>
+    <div class="background-effects">
+        <div class="glow-orb top-left"></div>
+        <div class="glow-orb bottom-right"></div>
+    </div>
+
+    <!-- Backdrop overlay that shows behind expanded card -->
+    <div id="cardBackdrop" class="card-backdrop"></div>
+
+    <header class="header">
+        <div class="container">
+            <h1 class="page-title">Deployed ML Projects</h1>
+
+            <div class="controls-bar">
+                <div class="search-container">
+                    <i class="ph ph-magnifying-glass search-icon"></i>
+                    <input type="text" id="searchInput" placeholder="Search by name or project...">
+                </div>
+                <div class="view-toggles">
+                    <button id="gridViewBtn" class="toggle-btn active" aria-label="Grid View" title="Grid View">
+                        <i class="ph ph-squares-four"></i>
+                    </button>
+                    <button id="listViewBtn" class="toggle-btn" aria-label="List View" title="List View">
+                        <i class="ph ph-list"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Container for dynamically generated student cards -->
+        <div id="studentContainer" class="student-container grid-view">
+            <!-- Cards will be injected here via JavaScript -->
+        </div>
+
+        <div id="noResultsMsg" class="no-results hidden">
+            <i class="ph ph-smiley-sad"></i>
+            <p>No students found matching your search.</p>
+        </div>
+
+        <!-- Modal for Expanded Student Details -->
+        <div id="studentModal" class="modal-overlay hidden">
+            <div class="modal-content student-card">
+                <button id="closeModalBtn" class="close-btn"><i class="ph ph-x"></i></button>
+                <div id="modalBody"></div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Deployed ML Projects Showcase. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

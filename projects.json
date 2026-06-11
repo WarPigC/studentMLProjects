@@ -1,0 +1,569 @@
+[
+    {
+        "name": "Abhay Dugaya",
+        "section": "CSIT1 III Year",
+        "title": "FloraGuard Pro",
+        "description": "plant disease detection system",
+        "link": "https://dl-ten-umber.vercel.app/"
+    },
+    {
+        "name": "Aditi Kumrawat",
+        "section": "CSIT1 III Year",
+        "title": "Student Marks Predictor using Machine Learning",
+        "description": "This project is a Machine Learning-based web application developed to predict a student\u2019s final academic performance. The system uses a Linear Regression model to estimate final marks based on key factors such as study hours, attendance percentage, and previous exam scores.\n\nThe application is built using Python and utilizes libraries like Scikit-learn for model development, Pandas and NumPy for data handling, and Matplotlib for visualization. A user-friendly interface is created using Streamlit, allowing users to input their data through interactive sliders and instantly receive predicted results.\n\nThe project demonstrates the practical implementation of supervised learning and shows how machine learning can be integrated into real-world applications. Additionally, the app is deployed on Streamlit Cloud, making it accessible online.",
+        "link": "https://student-marks-predictor-s6vmb2ldo2dv763jwdaggs.streamlit.app/"
+    },
+    {
+        "name": "Aditya Tiwari",
+        "section": "CSIT1 III Year",
+        "title": "AI Content Detector",
+        "description": "An application trained on large number of AI-generated and real images and texts, and detects whether the uploaded image/text is AI-generated or real, having an accuracy of 89%.",
+        "link": "https://ai-content-detector-csit-project.streamlit.app/"
+    },
+    {
+        "name": "Alankriti dwivedi",
+        "section": "CY III Year",
+        "title": "Ai art generator",
+        "description": "The AI Art Generator showcases the power of generative AI in transforming imagination into visual reality. It simplifies the art creation process and opens new possibilities for designers, developers, and content creators by combining creativity with machine intelligence.",
+        "link": "https://alertgen.streamlit.app"
+    },
+    {
+        "name": "Amay Mishra",
+        "section": "CSIT1 III Year",
+        "title": "CivicConnect: AI-Powered Civic Issue Detection and Automated Complaint Generation",
+        "description": "CivicConnect is an end-to-end ML/DL project designed to automate urban civic issue reporting by combining computer vision, geolocation intelligence, and text generation. The system takes an uploaded road image as input and uses a custom-trained YOLOv8 deep learning model to classify civic issues into three categories: pothole road, garbage on road, and broken road asphalt. After prediction, the application estimates issue severity from model confidence, captures location through browser geolocation, and performs reverse geocoding to generate a human-readable address.\nThe final output is not just a class label, but a complete citizen-ready report that includes issue type, confidence score, severity level, timestamp, mapped location, and an auto-generated formal complaint letter for municipal authorities. The solution is implemented as a microservices architecture with separate frontend, backend, and model inference services, making it scalable and deployment-friendly.\nThis project demonstrates practical use of deep learning for social impact by reducing manual effort, improving reporting speed, and enabling structured communication between citizens and civic bodies. It highlights how AI can move beyond prediction into actionable public-service workflows.",
+        "link": "https://7ac6-47-247-173-78.ngrok-free.app"
+    },
+    {
+        "name": "AMBAR YADAV",
+        "section": "CSIT1 III Year",
+        "title": "STUDENT ACADEMIC TRACKER",
+        "description": "An AI-powered student achievement forecasting system that predicts final exam marks using machine learning. Built with Streamlit and scikit-learn, it analyzes key academic factors like study hours, attendance, and previous performance to provide accurate grade predictions. Designed for educators, students, and educational institutions to identify at-risk students, estimate grades, and understand academic success patterns through interactive visualizations and real-time predictions",
+        "link": "https://student-marks-predictor-production.up.railway.app"
+    },
+    {
+        "name": "Amit Yadav",
+        "section": "CSIT1 III Year",
+        "title": "DermAi",
+        "description": "An AI-based dermatologist can detect skin conditions and infections by analyzing an uploaded image.",
+        "link": "https://deep-learning-project-xnqa.vercel.app/"
+    },
+    {
+        "name": "Aniruddh Chaturvedi",
+        "section": "CSIT1 III Year",
+        "title": "PPE Detector",
+        "description": "Model detecting and ensuring PPE wore by people in construction sites or places requiring special equipment. Detects if a hard hat is equipped or not and a vest",
+        "link": "https://huggingface.co/spaces/SlySilver/PPE_Checker"
+    },
+    {
+        "name": "Ansh Rathore",
+        "section": "CSIT1 III Year",
+        "title": "Aura AI",
+        "description": "\u2728 Aura AI: Precision Neuro-Diagnostic Studio\nAura AI is a professional, clinical-grade diagnostic platform designed to assist in the high-precision detection and localization of brain tumors using axial MRI scans. By leveraging advanced Convolutional Neural Networks (VGG16) and spatial attention modeling, Aura AI provides real-time diagnostic insights with a focus on accuracy, transparency, and high-end user experience.\n\n\ud83d\ude80 Key Features\nClinical-Grade Detection: High-accuracy classification of axial brain MRI slices using a fine-tuned VGG16 transfer-learning architecture.\nGrad-CAM Localization: Transparent AI that highlights exactly where the model detects abnormalities, providing visual evidence to support clinical decisions.\nPremium SaaS UI: A modern, light-themed diagnostic dashboard built for the \"Studio\" experience\u2014clean, responsive, and distraction-free.\nReal-Time Analytics: Integrated metrics dashboard tracking system accuracy, scan history, and model performance.\nSmart Diagnostics: Intelligent heuristics that detect scan orientation and image validity, ensuring the highest data integrity.\n\ud83d\udee0\ufe0f Tech Stack\nLogic Core: Python 3.11\nDeep Learning: TensorFlow / Keras (VGG16 Transfer Learning)\nComputer Vision: OpenCV (Diagnostic heatmaps & preprocessing)\nFrontend: Streamlit (SaaS-grade custom UI)\nVisualization: Grad-CAM (Spatial Attention Mapping)\n\ud83e\ude7a Use Case\nAura AI is designed for research and educational purposes, providing a bridge between raw machine learning metrics and a professional clinical environment. It transforms complex medical data into actionable, visual insights instantly.",
+        "link": "https://aurafinal.streamlit.app/"
+    },
+    {
+        "name": "ansh vaishnav",
+        "section": "CSIT1 III Year",
+        "title": "Lifetime Global GDB tracker and AI based insights",
+        "description": "Lifetime Global GDB tracker and AI based insights",
+        "link": "https://gdp-dashboard-7iekv6gmnwk.streamlit.app/"
+    },
+    {
+        "name": "Anuj Malviya",
+        "section": "CSIT1 III Year",
+        "title": "AI Generated Image Detector",
+        "description": "- AI Image Forensics Engine - \n\n\u200bA web app that spots deepfakes and AI-generated images\u2014and actually explains why they're fake.\n\n\u200bHow it works:- \n\n\u200bDeep Learning Detection: It doesn\u2019t just read metadata. The vision model scans for pixel-level mistakes, weird lighting, and structural glitches that AI generators usually mess up.\n\u200bInteractive Chatbot: We solved the machine learning \"black box\" problem. If an image gets flagged, you can use the built-in chat to ask an LLM exactly what looks manipulated in the photo.\n\u200bSmart Backend: Engineered with dynamic API routing. It automatically hunts for live model endpoints so the app doesn't crash if a specific model version gets deprecated.\n\u200bCustom SaaS UI: Built on Streamlit, but heavily injected with custom CSS to ditch the default \"data dashboard\" look in favor of a modern, card-based frontend.",
+        "link": "https://ai-generated-image-detector-5he54zyqvqeyzcfphcmtbq.streamlit.app/"
+    },
+    {
+        "name": "Ashwin carpenter",
+        "section": "CSIT1 III Year",
+        "title": "Plant disease",
+        "description": "Predicts diseases",
+        "link": "https://curly-dew-c995.ashwincarpenter924.workers.dev/"
+    },
+    {
+        "name": "Avi Kedare",
+        "section": "CSIT1 III Year",
+        "title": "Animal Species Identifier",
+        "description": "Animal Species Identifier is developed to provide an efficient and automated solution for identifying animal species from images, reducing the need for manual classification. It uses a pretrained MobileNet model with transfer learning to classify 90 animal species with ~90% accuracy. The system allows users to upload images and get real-time predictions, making it useful for wildlife monitoring, biodiversity research, education, and smart surveillance systems.",
+        "link": "https://animal-species-identifier-ak.vercel.app/"
+    },
+    {
+        "name": "Ayush Patel",
+        "section": "CSIT1 III Year",
+        "title": "Emotion Detector",
+        "description": "An Emotion Detector is a system (software or device) that identifies human emotions\u2014like happiness, sadness, anger, or surprise\u2014based on signals such as facial expressions",
+        "link": "https://emotion-detection-glal.onrender.com/"
+    },
+    {
+        "name": "Chirag",
+        "section": "CSIT1 III Year",
+        "title": "\u201cAI-Based Fruit Detection and Classification System Using Deep Learning\u201d",
+        "description": "This project is a web-based application that uses deep learning to detect and classify fruits from images. Users can upload a fruit image, and the system predicts its type using a trained Convolutional Neural Network (CNN) model. The application provides fast and accurate results through a simple and user-friendly interface.",
+        "link": "https://fruit-detector-dl-63py.vercel.app/"
+    },
+    {
+        "name": "Deeva Jain",
+        "section": "CSIT1 III Year",
+        "title": "AI resume match maker",
+        "description": "AI Resume Match Maker is an intelligent tool that analyzes a candidate\u2019s resume and compares it with job descriptions to calculate compatibility. It highlights matching skills, missing keywords, and overall fit score to help users improve their resume and increase selection chances.",
+        "link": "https://ai-resume-matcher-k743.onrender.com"
+    },
+    {
+        "name": "devang sharma",
+        "section": "CSIT1 III Year",
+        "title": "plant disease detection",
+        "description": "Developed a machine learning-based system to detect plant diseases from leaf images using image processing and CNN models.",
+        "link": "https://ml-plant-disease-detection.onrender.com"
+    },
+    {
+        "name": "Dheer Panchal",
+        "section": "CSIT1 III Year",
+        "title": "Spam-Classifier",
+        "description": "we paste the message from the email to the spam classifier and then we will be able to check that it is a spam email or a no spam geniune email",
+        "link": "https://spam-classifier-jk2f.onrender.com"
+    },
+    {
+        "name": "Dhruv Jadhav",
+        "section": "CY III Year",
+        "title": "Plant disease detector",
+        "description": "This ML project develops an image-based system using CNNs or Transfer Learning (e.g., VGG, ResNet) to automatically detect plant leaf diseases. It empowers farmers to identify diseases early, reducing crop damage by analyzing leaf images for spots, rust, or blight. The system generally outputs the disease name and potential remedies.",
+        "link": "https://ml-plant-disease-detection.onrender.com"
+    },
+    {
+        "name": "Dipesh Patidar",
+        "section": "CSIT1 III Year",
+        "title": "Vehical Detection System",
+        "description": "The Vehicle Detection System is a computer vision-based application that automatically detects and classifies vehicles such as cars, buses, trucks, and motorcycles from images or video streams. The system leverages deep learning models to perform real-time object detection, making it useful for smart traffic management, surveillance, and automated monitoring systems.",
+        "link": "https://vehicle-sense.onrender.com"
+    },
+    {
+        "name": "Disha Asija",
+        "section": "CSIT1 III Year",
+        "title": "NeutralGuard Face Mask Detector",
+        "description": "NeuralGuard is a deep learning-powered web application that provides real-time face mask detection on user-uploaded images. Built with Python, Streamlit, and TensorFlow, the application utilizes a two-stage AI pipeline: a Caffe SSD model for highly accurate face localization, followed by a custom MobileNetV2 neural network for mask classification. The project features a premium, completely custom frontend interface equipped with dynamic dark/light mode toggling, glassmorphism design, and an interactive dashboard that instantly outputs compliance analytics",
+        "link": "https://dishaasija315-face-mask-detection-app-2vrssw.streamlit.app/"
+    },
+    {
+        "name": "Divyanshu Prajapat",
+        "section": "CY III Year",
+        "title": "Hate Speech Detection Using Deep Learning",
+        "description": "The goal of this project is to automate the detection of harmful content in social media comments or tweets. By leveraging Natural Language Processing (NLP) and Long Short-Term Memory (LSTM) networks, the model understands the context of sentences to provide accurate classifications.",
+        "link": "https://hate-speech-detection-using-deep-learning.streamlit.app/"
+    },
+    {
+        "name": "Eklavya Jangid",
+        "section": "CSIT1 III Year",
+        "title": "SentScope AI - Read between the Reviews",
+        "description": "SentiScope AI is a deep learning-powered review intelligence platform built on a fine-tuned BERT Transformer architecture. It performs aspect-level sentiment analysis, fraud detection, and real-time review scoring \u2014 all from a single multi-task model trained on 4M+ Amazon reviews with 96.1% accuracy. The platform features an interactive live demo, bulk CSV analysis, and a production-ready REST API for seamless e-commerce integration.",
+        "link": "https://eklavyajangid305.github.io/SentiScope-AI/"
+    },
+    {
+        "name": "Gulisha Agrawal",
+        "section": "CSIT1 III Year",
+        "title": "AI-Based Disease Classification and Prediction System",
+        "description": "This project is a web-based application that uses machine learning to classify and predict diseases based on user-provided symptoms. It analyzes input data to generate possible health conditions along with basic recommendations, promoting early awareness and informed decision-making. The system features an intuitive interface, real-time predictions, and scalable architecture, demonstrating the practical application of AI in healthcare and intelligent diagnostic support system.",
+        "link": "https://disease-classification-smoky.vercel.app"
+    },
+    {
+        "name": "Gunjan Udiwal",
+        "section": "CSIT1 III Year",
+        "title": "Face Emotion Detector",
+        "description": "Developed a machine learning-based facial emotion detection system that identifies human emotions from facial expressions. The model uses computer vision techniques to process images or live video input. It classifies emotions such as happy, sad, angry, and surprised. It can be further used in areas like mental health monitoring and user experience analysis.",
+        "link": "https://gunjan1510.github.io/emotion-detector/"
+    },
+    {
+        "name": "Hari Singh",
+        "section": "CSIT1 III Year",
+        "title": "SmartStudy AI",
+        "description": "SmartStudy AI is a single-page, offline study assistant for college students built entirely in one HTML file with embedded CSS and vanilla JavaScript. It lets a student save a profile, then study across notes, flashcards, exam questions, quizzes, and a visual mind map using hardcoded topic data tailored to their college year.\n\nIt also includes a personalized dashboard, daily topic rotation, study streak tracking, recent topics, dark/light mode, PDF-style note printing, and a rule-based chatbot called Buddy. Everything runs in the browser with no backend, no external API, and localStorage handling persistence.",
+        "link": "https://misty-darkness-7576.singhhari2973.workers.dev/"
+    },
+    {
+        "name": "Hariom Patidar",
+        "section": "CSIT1 III Year",
+        "title": "Face detection",
+        "description": "In thise project it detect the face and took the attendence",
+        "link": "https://face-recognition-attendence-system-j1uldwpvu-hariom4.vercel.app"
+    },
+    {
+        "name": "Harshit Jain",
+        "section": "CSIT1 III Year",
+        "title": "Movie Recommendation System",
+        "description": "A Movie Recommender System web application that suggests movies to users based on their preferences. It uses Machine Learning with Content-Based Filtering, where recommendations are generated by analyzing movie features such as genres, keywords, cast, crew, and plot similarity. By using techniques like Natural Language Processing (NLP) and Cosine Similarity, the system finds movies similar to the one selected by the user.",
+        "link": "https://movie-recommender-navy.vercel.app/"
+    },
+    {
+        "name": "HRITIK PATEL",
+        "section": "CSIT1 III Year",
+        "title": "VisionAI Real-Time Object Detection with Anti-Gravity Effect",
+        "description": "IT IS A OBJECT DETECTOR MODEL WHICH DETECT NUMBERS OF OBJECT VIA IMAGE UPLOAD ONCE IMAGE UPLOADED IT DETECTS EVERY OBJECT FROM IMAGE. CURRENTLY I AM WORKING IN LIVE OBJECT DETECTOR FEATURE",
+        "link": "https://object-detection-01.vercel.app/"
+    },
+    {
+        "name": "Ifrah Qureshi",
+        "section": "CSIT1 III Year",
+        "title": "EmoTrack AI",
+        "description": "EmoTrack AI is a high-performance, real-time facial analytics platform that tracks human expressions and gender with a professional \"Vision Pro\" aesthetic.\n\nWhat it Does -\nThe app captures live video to perform three core AI functions simultaneously:\n\nIntelligent Tracking: Uses precise scanner brackets to detect and track faces.\nEmotion Analytics: Classifies moods (Happy, Sad, Angry, etc.) using a deep-learning Xception model.\nTemporal Stability: Employs a smoothing engine (30-frame average) to ensure classifications remain rock-solid and flicker-free.\n\nTechnologies Used\nCore AI: Python, TensorFlow, Keras, and OpenCV.\nUI/UX: Streamlit, Streamlit-WebRTC, and custom Vanilla CSS.\nInfrastructure: Hosted on GitHub and Streamlit Cloud (Linux environment).",
+        "link": "https://emotrackai.streamlit.app/"
+    },
+    {
+        "name": "Ishan Raut",
+        "section": "CSIT2 III Year",
+        "title": "SENTIRA - AI Emotion Intelligence",
+        "description": "Project Title: Real-Time Facial Emotion Recognition using Deep Learning (CNN) Objective: To design and implement a system that detects human facial expressions from images or live video streams and classifies them into predefined emotional categories using deep learning techniques.\n\n\ud83c\udfaf Problem Statement:\nDevelop a deep learning model that:\nTakes a facial image as input\nProcesses it using CNN\nOutputs the predicted emotion among 7 classes:\nAngry, Disgust, Fear, Happy, Sad, Surprise, Neutral",
+        "link": "https://emotionrecognition-8qcsvgu2v2ocgxpdczgkeo.streamlit.app/"
+    },
+    {
+        "name": "Ishan Singh Tomar",
+        "section": "CSIT1 III Year",
+        "title": "Code-Catcher",
+        "description": ".\n\n\ud83d\udd78\ufe0f Code-Catcher: Deep Learning OCR for Developers\n\n\ud83d\ude80 Overview\nCode-Catcher is an AI-powered web application designed to eliminate the tedious process of manually transcribing code from video tutorials, online courses, and presentations. By leveraging state-of-the-art Deep Learning Optical Character Recognition (OCR), Code-Catcher allows developers to upload a screenshot of any code snippet and instantly translates it into clean, copyable, and downloadable text.\n\n\ud83d\udca1 The Problem vs. The Solution\nThe Problem: We all watch coding tutorials where the instructor shares a block of code but leaves out the GitHub link. Pausing the video to type out complex syntax line-by-line breaks momentum and introduces typos.\n\nThe Solution: A rapid-prototyping utility where you simply drag and drop a screenshot, and the app's neural network engine extracts the text\u2014preserving vital programming structures like indentation, brackets, and symbols.\n\n\ud83e\udde0 Under the Hood: Models & Tech Stack\nThis project bridges advanced computer vision with a highly responsive, custom-styled frontend.\n\nDeep Learning / OCR Engine: Powered by EasyOCR (running on the PyTorch backend). Unlike legacy OCR systems (like Tesseract) that struggle with special characters, this model utilizes:\n\nCRAFT (Character Region Awareness for Text Detection): A sophisticated deep-learning algorithm that accurately detects text bounding boxes even in low-resolution video screenshots.\n\nCRNN (Convolutional Recurrent Neural Network): Handles the actual text recognition, heavily trained to recognize complex structures and programming syntax accurately.\n\nFrontend UI/UX: Built with Streamlit using extensively overridden CSS to create a premium, modern dark-mode aesthetic (Inter typography, custom hover states, and smooth loading animations).\n\nImage Processing: Utilizes OpenCV (Headless) and Pillow for robust image handling and matrix transformations before feeding data to the neural network.\n\n\u2728 Key Features\nHigh-Fidelity Extraction: Tuned to recognize tricky programming symbols { } [ ] ( ) : ; that standard OCRs miss.\n\nSmart Formatting: Includes algorithmic post-processing to intelligently group horizontal text blocks and estimate spatial indentation.\n\nPremium Dark Mode Interface: A distraction-free, developer-focused UI with an intuitive drag-and-drop dropzone.\n\nOne-Click Actions: Features a native st.code block for instant copy-to-clipboard functionality, plus a dedicated Download (.py) button to export the code directly to your local machine.\n\n\u2699\ufe0f Live Deployment\nThis application is containerized and deployed seamlessly on Streamlit Community Cloud, requiring zero local setup for end-users to enjoy lightning-fast code extraction.",
+        "link": "https://code-catch.streamlit.app/"
+    },
+    {
+        "name": "Ishika Sethiya",
+        "section": "CSIT1 III Year",
+        "title": "AI Waste Classification System",
+        "description": "AI Waste Classification System \u267b\ufe0f\nA complete end-to-end Deep Learning system that classifies waste into Biodegradable and Recyclable categories using CNNs and Transfer Learning.\n\n\ud83d\ude80 Features\nDual Model Support: Custom CNN and MobileNetV2 (Transfer Learning).\nInteractive UI: Streamlit dashboard for image upload and live webcam input.\nSmart Suggestions: Provides disposal advice for each category.\nTraining Analytics: Visualizes Accuracy/Loss and performance metrics.\nReal-time Dashboard: Tracks classification statistics.\n\ud83d\udcc1 Project Structure\ndataset/: Organizes images for training and validation.\nmodels/: Stores trained model files (.h5) and evaluation plots.\nsrc/: Core logic for model building, preprocessing, and utilities.\napp.py: The Streamlit web application.\ntrain.py: Script to train and compare models.\ndataset_setup.py: Utility to prepare folder structure and data.\n\ud83d\udee0\ufe0f Getting Started\n1. Installation\nEnsure you have Python installed. Install dependencies:\n\npip install -r requirements.txt\n2. Dataset Preparation\nRun the setup script to create the folders:\n\npython dataset_setup.py\nImportant: Download the Waste Classification Dataset from Kaggle and place the images in dataset/train/ and dataset/val/ under the respective class folders.\n\n3. Training\nTrain the models using:\n\npython train.py\nThis will save custom_cnn.h5 and transfer_learning.h5 in the models/ folder.\n\n4. Running the Dashboard\nLaunch the Streamlit app:\n\nstreamlit run app.py\n\ud83e\udde0 Model Details\nCustom CNN: 3 Convolutional layers with MaxPooling and Dropout.\nTransfer Learning: MobileNetV2 base with custom Dense layers (Frozen weights for faster training).\n\ud83d\udca1 Smart Suggestions\nBiodegradable \u2192 Compost (Green)\nRecyclable \u2192 Recycle bin (Blue)\nDeveloped as a production-ready AI Waste Classification project.",
+        "link": "https://waste-classification-ai-guq4zqolrjvhfj4g5x7ebx.streamlit.app/"
+    },
+    {
+        "name": "Jayant ray",
+        "section": "CSIT2 III Year",
+        "title": "LaptopAI Price Predictor",
+        "description": "AI-powered laptop price estimation with quality scoring & recommendations",
+        "link": "https://laptop-price-prediction-project-4.onrender.com"
+    },
+    {
+        "name": "jayesh kushwah",
+        "section": "CSIT1 III Year",
+        "title": "fruit vision AI",
+        "description": "https://deep-learning-henna.vercel.app?_vercel_share=vfSo5A6d30dB9BCbPEPH34FupEZDI7Oo",
+        "link": "https://deep-learning-henna.vercel.app?_vercel_share=vfSo5A6d30dB9BCbPEPH34FupEZDI7Oo"
+    },
+    {
+        "name": "Karan Patel",
+        "section": "CSIT1 III Year",
+        "title": "Plant Disease Detection",
+        "description": "it suggest pesticides according to plant disease  when the farmer upload the effected plant photo then the it  suggest the best pesticides",
+        "link": "https://ml-plant-disease-detection.onrender.com"
+    },
+    {
+        "name": "Kashish Jhala",
+        "section": "CSIT1 III Year",
+        "title": "MediPulse Health AI",
+        "description": "Simple AI web app which acts like a health aid with a chatbot and symptoms analyser",
+        "link": "https://ai-health-aid.onrender.com"
+    },
+    {
+        "name": "Kripa Raghuvanshi",
+        "section": "CSIT1 III Year",
+        "title": "AI-Powered Data Analyst",
+        "description": "An AI-powered data analyst system uses deep learning techniques to automatically analyze large datasets, identify patterns, and generate meaningful insights. It can perform tasks like data cleaning, trend prediction, anomaly detection, and visualization, helping users make data-driven decisions without manual analysis.",
+        "link": "https://ai-powered-data-analyst-2.onrender.com"
+    },
+    {
+        "name": "Krishna Gupta",
+        "section": "CSIT1 III Year",
+        "title": "AI Resume Matchmaker",
+        "description": "AI Resume Matchmaker is a machine learning\u2013based web application that analyzes resumes and job descriptions to generate a compatibility score. It helps recruiters quickly screen candidates and provides insights to improve resumes.",
+        "link": "https://ai-resume-matcher-k743.onrender.com"
+    },
+    {
+        "name": "Krishna Khirbadodiya",
+        "section": "CSIT1 III Year",
+        "title": "Urban Heat Island (UHI) Mitigation & Satellite Analytics Dashboard",
+        "description": "A data-driven civic-tech platform designed to analyze the relationship between rapid urbanization and thermal retention in Indian metropolitan areas. By leveraging high-resolution satellite imagery from NASA (Landsat-8/9) and ESA (Sentinel-2) via the Microsoft Planetary Computer, this tool provides a multi-temporal analysis of Land Surface Temperature (LST) and Vegetation Density (NDVI). The project features a Spatial-Aware Random Forest model that allows urban planners to simulate \"what-if\" scenarios, predicting the cooling impact of green-cover restoration to drive climate-resilient municipal policy.",
+        "link": "https://urban-heat-island-analyzer.onrender.com"
+    },
+    {
+        "name": "Krutika Dakhre",
+        "section": "CSIT1 III Year",
+        "title": "AI text summarizer",
+        "description": "An advanced AI-powered text summarizer that uses state-of-the-art NLP models to instantly condense long articles and PDF documents. Features a modern dark-mode UI, keyword extraction, and easy download options.",
+        "link": "https://ai-text-summarizer-8.onrender.com/"
+    },
+    {
+        "name": "Lakshya Jain",
+        "section": "CSIT1 III Year",
+        "title": "Data-Driven Performance Analyzer",
+        "description": "Used For Finding Performance Of The Data Given By the Users And Also Make It Simpler For Analysis By Giving Graphs",
+        "link": "https://my-performance-app-vyappcfhlmcwb6aie6g6d5g.streamlit.app/"
+    },
+    {
+        "name": "Lav Bhatia",
+        "section": "CSIT1 III Year",
+        "title": "Heart Desease Prediction App",
+        "description": "This project is a website that uses machine learning to figure out if someone is likely to have heart disease. It looks at things like how old the person's if they are a man or a woman what kind of chest pain they have their blood pressure and other health things. The website uses something called the Support Vector Machine algorithm to make predictions. This algorithm is really good at looking at lots of information and making decisions.\n\nThe website lets people put in their health information like their age, sex and blood pressure. It also asks about things like chest pain and cholesterol levels. The website then looks at all this information. Uses it to make a prediction. It does this by using the steps it used when it was learning from other peoples health information.\n\nThe part of the website that people do not see is built using something called Flask. This makes the website small and easy to use. When someone puts in their health information the website uses a tool to make a prediction right away. It then tells the person if they are likely to have heart disease or not.\n\nWhen someone puts in their information the website says one of two things:\n\n* No Heart Disease Detected \u2705\n\n* Risk of Heart Disease \u26a0\ufe0f\n\nThis project shows how machine learning can be used in real life to help people. It focuses on making predictions letting people use the website and putting all the pieces together to make something that works. The machine learning model is used to predict heart disease and the project is, about making this model work well. The heart disease prediction is the goal of the project.",
+        "link": "https://heart-disease-prediction-app-3kwfott2gsijnctjiwud27.streamlit.app/"
+    },
+    {
+        "name": "Manasvi sohani",
+        "section": "CSIT1 III Year",
+        "title": "Smart Expense Tracker",
+        "description": "Smart Expense Tracker with AI is an intelligent application that automates expense management using Deep Learning and Natural Language Processing (NLP). The system allows users to enter expenses in text form (e.g., \u201cPizza \u20b9200\u201d) and automatically classifies them into categories such as Food, Travel, Shopping, and Bills. It uses an LSTM-based model with an embedding layer to understand and process text data effectively. The application stores all transactions in a database and provides a user-friendly dashboard to visualize spending patterns through graphs and charts. This helps users analyze their financial habits and manage budgets efficiently. The project reduces manual effort, improves accuracy in categorization, and demonstrates real-world implementation of AI in personal finance. Future enhancements include receipt scanning using OCR, voice input support, and mobile app integration for better accessibility and usability.",
+        "link": "https://sohanimanasvi328-bit.github.io/Smart-Expense-Tracker-/"
+    },
+    {
+        "name": "MANSI JAIN",
+        "section": "CSIT1 III Year",
+        "title": "Resume Analyzer",
+        "description": "Project Description: Resume Analyzer (AI-Powered)\n\nThe Resume Analyzer is an intelligent web-based application designed to evaluate and enhance resumes using Machine Learning (ML) and Natural Language Processing (NLP) techniques. The system allows users to upload resumes in PDF or DOCX format or input text manually, and then performs a detailed analysis to assess resume quality and effectiveness.\n\nThe application uses advanced NLP methods to extract key skills from the resume and compares them against industry-relevant requirements. It employs a TF-IDF vectorization technique combined with Logistic Regression to classify resumes into categories such as Good, Average, or Poor, simulating the behavior of real-world Applicant Tracking Systems (ATS).\n\nIn addition to scoring, the system provides actionable suggestions to improve resume content, including grammar corrections, better use of action verbs, formatting improvements, and structure optimization. A key feature of the application is its ability to match resumes with job descriptions by calculating similarity scores using cosine similarity, helping users understand how well their resume aligns with a specific job role.\n\nThe project also identifies missing skills and highlights areas that need improvement to increase ATS compatibility. Furthermore, users can download a comprehensive PDF report containing the complete analysis and recommendations.\n\nBuilt using Python and Flask for the backend, along with scikit-learn and NLTK for ML/NLP processing, and standard web technologies for the frontend, this project demonstrates a practical implementation of AI in career development tools.",
+        "link": "https://resume-analyser-nu-eosin.vercel.app/"
+    },
+    {
+        "name": "Mansi Wahane",
+        "section": "CSIT1 III Year",
+        "title": "laptop-price-prediction-project",
+        "description": "The Laptop Price Prediction System is a machine learning-based project developed to estimate the price of a laptop based on its specifications. With the rapid growth of the electronics market, it has become difficult for users to determine the fair price of laptops with varying configurations. This project aims to solve this problem by building a predictive model that analyzes key features such as processor type, RAM, storage, GPU, screen size, and brand.\n\nThe system uses supervised machine learning algorithms to train a model on a dataset of laptops and their corresponding prices. After training, the model can predict the price of a new laptop when the user inputs its specifications. This helps customers make informed purchasing decisions and also assists sellers in pricing their products competitively.",
+        "link": "https://laptop-price-prediction-project-4.onrender.com"
+    },
+    {
+        "name": "MAYANK ANJANA",
+        "section": "CSIT2 III Year",
+        "title": "LaptopAI Price Predictor",
+        "description": "AI-powered laptop price estimation with quality scoring & recommendations",
+        "link": "https://laptop-price-prediction-project-4.onrender.com"
+    },
+    {
+        "name": "Meet kelwa",
+        "section": "CSIT2 III Year",
+        "title": "AI Resume analyser",
+        "description": "AI Resume Analyzer is a machine learning system that reviews resumes and understands a candidate\u2019s skills and qualifications. It helps identify suitable job roles based on the profile. The system also gives a confidence score to show how well the skills match those jobs. It makes the hiring process simpler and more efficient.",
+        "link": "https://ai-resume-analyzer-api-nyz6.onrender.com/"
+    },
+    {
+        "name": "Monish Monnat",
+        "section": "CY III Year",
+        "title": "SignatureAuth",
+        "description": "A biometric signature-based login system",
+        "link": "https://signatureapp.streamlit.app"
+    },
+    {
+        "name": "Nandani Rathore",
+        "section": "CSIT2 III Year",
+        "title": "Posture and eye motion detector",
+        "description": "AI-Based Eye Strain & Posture Monitoring System is a real-time computer vision application designed to promote healthy screen usage habits. The system uses a webcam to continuously monitor the user\u2019s eye activity, posture, and distance from the screen. By applying image processing techniques through OpenCV and facial and body landmark detection using MediaPipe, it identifies signs of eye fatigue, improper posture, and unsafe viewing distance.\nWhen such conditions are detected, the system provides immediate on-screen alerts, such as reminders to maintain proper posture, keep a safe distance from the screen, and take breaks to reduce eye strain. This solution is particularly useful for students and professionals who spend extended periods working on digital devices, helping to improve their overall health and productivity.",
+        "link": "https://posturemonitor.onrender.com/"
+    },
+    {
+        "name": "niharika soni",
+        "section": "CSIT2 III Year",
+        "title": "sign language translator",
+        "description": "This project is a web-based Sign Language Translator designed to improve communication between hearing and hearing-impaired individuals. The application translates sign language gestures into readable text, making interactions more accessible and inclusive. It is built using modern web technologies, ensuring a simple, responsive, and user-friendly interface.\n\nThe system leverages computer vision and machine learning techniques to detect and interpret hand gestures accurately. By processing visual inputs, it converts gestures into meaningful language in real time. This helps users communicate effectively in situations where sign language interpreters are not available.\n\nThe project highlights the practical use of artificial intelligence in assistive technology. It focuses on usability, accessibility, and real-world impact. Overall, the Sign Language Translator demonstrates how technology can bridge communication gaps and support inclusivity, making it a valuable solution for enhancing interaction and understanding in diverse environments.",
+        "link": "https://niharikasoni12.github.io/sign-language-translator-/"
+    },
+    {
+        "name": "Nivedika Gour",
+        "section": "CSIT2 III Year",
+        "title": "Soulreplica",
+        "description": "Project: AI Personal Companion (Soul Replica)\nOverview\n\nAn AI-powered personal assistant that acts as a digital twin, combining journaling, habit tracking, expense management, and conversational AI to provide personalized insights and guidance.\n\nCore Idea\nA system that:\n\nStores long-term personal thoughts, conversations, and habits\nLearns user behavior over time\nProvides contextual advice, reminders, and suggestions\n\nKey Features\nConversational AI (Text + Voice):\nChat and speak with the assistant for advice, reflection, and idea generation\nPersistent Memory:\nStores thoughts, stories, and personal quotes; retrieves them contextually\nVoice Assistant:\nCustom wake word, voice logging (expenses, habits, thoughts), lock-screen access\nHabit Tracking:\nTrack routines with smart feedback and motivational alerts\nExpense Tracking:\nLog income/expenses, set budgets, receive spending insights\nPersonalized Insights:\nAI analyzes behavior to generate reports and suggestions\nQuotes & Reminders:\nStores user quotes and sends daily/context-based notifications",
+        "link": "https://personalassistant-1.vercel.app/"
+    },
+    {
+        "name": "Prabhat Choudhary",
+        "section": "CSIT2 III Year",
+        "title": "Taaranaa Mood Scanner: Passive Emotion Monitoring (CNN & FER-2013)",
+        "description": "Taaranaa Mood Scanner is a deployed web application focused on holistic wellness through passive emotion monitoring. The project utilizes Convolutional Neural Networks (CNNs) and Transfer Learning to perform real-time Image Processing and Facial Emotion Recognition. It leverages the DeepFace framework, running on models trained via the Kaggle FER-2013 dataset. Technically, the app processes user-uploaded images using OpenCV to isolate facial features, passes the pixel arrays through the CNN to classify emotional states (e.g., Happy, Sad, Neutral), and returns the prediction through a Python backend. The entire ML pipeline is successfully deployed as a live cloud web service.",
+        "link": "https://emotiontaarana.onrender.com/"
+    },
+    {
+        "name": "Prachi Patidar",
+        "section": "CSIT2 III Year",
+        "title": "AI-Based Waste Segregation and Recycling Suggestion System",
+        "description": "This project is a web-based application that classifies waste into different categories such as Organic, Plastic, Glass, Paper, and Metal using intelligent image analysis. Users can upload an image of waste, and the system predicts its category and provides appropriate recycling suggestions.\n\nThe system was initially designed using deep learning concepts and later optimized with a lightweight hybrid approach to ensure faster and more stable performance during deployment. It focuses on real-time usability, accuracy for common waste types, and practical recycling guidance.\n\nThe application aims to promote environmental awareness by helping users correctly segregate waste and understand proper disposal methods.",
+        "link": "https://waste-system.vercel.app/"
+    },
+    {
+        "name": "Prachi Patidar",
+        "section": "CSIT2 III Year",
+        "title": "NutriVision AI \u2013 Food Calorie Estimator System",
+        "description": "NutriVision AI is a smart system that uses Artificial Intelligence and Deep Learning to estimate the calorie content of food from images. Users can upload or capture a food image, and the system detects and classifies the food items using computer vision models like CNN or YOLO.\n\nAfter identifying the food, it maps the items to a nutrition dataset to calculate approximate calorie values. This project helps users track their diet and make healthier food choices. It can be further extended with features like portion size estimation and multi-food detection.\n\nObjective:\nTo develop an AI-based solution for automatic food recognition and calorie estimation.",
+        "link": "https://food-prachi-gofy8hakxi5srhnumurzvv.streamlit.app/"
+    },
+    {
+        "name": "prajakta markhedkar",
+        "section": "CSIT2 III Year",
+        "title": "truthlens",
+        "description": "Fake News Detection Web Application A complete end-to-end Machine Learning web application that detects whether a news article or WhatsApp forward is fake or real, and provides an explainable reason for its prediction",
+        "link": "https://github.com/pmarkhedkar-bit/ml-project"
+    },
+    {
+        "name": "Pratyush Patel",
+        "section": "CSIT2 III Year",
+        "title": "Sentiment- analysis",
+        "description": "This project focuses on building a Sentiment Analysis System that automatically classifies text into positive, negative, or neutral sentiment based on the words and context used in the input.\n\nThe system takes textual data (such as product reviews, comments, or social media posts) and processes it using Natural Language Processing (NLP) techniques. It analyzes the presence of emotionally significant words and patterns to determine the overall sentiment of the text.",
+        "link": "https://sentiment-analysis-cg3dir47mwv8fx7qhrx3vf.streamlit.app/"
+    },
+    {
+        "name": "Praveen Singh",
+        "section": "CY III Year",
+        "title": "Cardio Risk AI",
+        "description": "CardioRiskNet is a Streamlit-based web app that predicts the risk of heart disease using machine learning by analyzing user health inputs and providing quick, interactive results.",
+        "link": "https://cardiorisknet.streamlit.app/"
+    },
+    {
+        "name": "Pulkit Singh Sengar",
+        "section": "CSIT2 III Year",
+        "title": "Safe Lancer: AI-Powered Fraud Detection & Secure Freelancing Platform",
+        "description": "Safe Lancer is a machine learning\u2013based web application designed to enhance security and trust in freelancing platforms. The system focuses on detecting fraudulent activities, suspicious users, and unsafe transactions using intelligent algorithms.\nThe platform leverages machine learning models to analyze user behavior, transaction patterns, and activity data to identify potential risks. By applying predictive analytics, the system can classify users or actions as safe or suspicious, helping prevent scams and improving reliability in freelance ecosystems.",
+        "link": "https://safe-lancer.vercel.app/"
+    },
+    {
+        "name": "Raja Dhakad",
+        "section": "CSIT2 III Year",
+        "title": "Interactive Course Showcase Platform",
+        "description": "Description\nCoursel is an interactive web application built using Streamlit that allows users to explore and browse curated courses in a visually engaging carousel format. It provides a modern, user-friendly interface where each course is presented with images, titles, and descriptions, enabling seamless navigation and quick discovery of learning content. Designed for simplicity and responsiveness, Coursel enhances the way users interact with educational resources by combining clean design with dynamic presentation",
+        "link": "https://coursel.streamlit.app/"
+    },
+    {
+        "name": "Rajn kumawat",
+        "section": "CSIT2 III Year",
+        "title": "Cardio-AI",
+        "description": "CARDIO AI is a machine learning-based web application that predicts the risk of heart disease using patient health data. It takes inputs like age, blood pressure, cholesterol, and heart rate, and provides a risk score along with alert levels (Low, Medium, High). The system uses a trained Random Forest model and includes rule-based logic for detecting critical conditions. It is built with a Flask backend and an interactive frontend, enabling real-time prediction and early warning support.",
+        "link": "https://cardio-ai-ml.onrender.com/"
+    },
+    {
+        "name": "Ram Nagar",
+        "section": "CY III Year",
+        "title": "Chatbot using pretrained model",
+        "description": "An end-to-end conversational AI web application integrating Microsoft's DialoGPT model. Built with FastAPI for robust backend routing and Streamlit for rapid UI deployment, featuring conversation memory and dynamic text generation",
+        "link": "https://chatbotdialo.streamlit.app/"
+    },
+    {
+        "name": "Rishabh Tirole",
+        "section": "CY III Year",
+        "title": "DeepVision",
+        "description": "Upload an image to instantly detect humans, animals, vegetables, and everyday objects using advanced Deep Learning.",
+        "link": "https://huggingface.co/spaces/Rishabh1789/deepvision-detection"
+    },
+    {
+        "name": "Sahil Ali",
+        "section": "CY III Year",
+        "title": "Agri-Sanchar",
+        "description": "This project focuses on the design and development of an AI-enabled, multilingual mobile advisory system for small and marginal farmers. The system provides location-specific crop advisories, pest and disease detection, weather updates, and market insights to help farmers make informed decisions and improve agricultural productivity.",
+        "link": "https://agri-sanchar.vercel.app/login"
+    },
+    {
+        "name": "Sanatan Singh Rajawat",
+        "section": "CSIT2 III Year",
+        "title": "Vehicle detection",
+        "description": "The main purpose of this project is to use artificial intelligence to automatically detect, locate, and highlight vehicles (like cars, trucks, and buses) inside images uploaded by the user.",
+        "link": "https://shiny-water-bb77.sanatansinghfreak4594indian.workers.dev/"
+    },
+    {
+        "name": "Sanvi Nahar",
+        "section": "CSIT2 III Year",
+        "title": "Smart Movie Recommender System",
+        "description": "This project is a web-based movie recommendation system that suggests similar movies based on user input. It uses a content-based filtering approach, analyzing movie descriptions and genres to compute similarity between films. The system is built using Python (Flask) for the backend and a responsive HTML/CSS/JavaScript interface for the frontend.\n\nUsers can enter a movie title and instantly receive a list of recommended movies along with posters and similarity scores. The application integrates the OMDB API to fetch real-time movie posters, enhancing the user experience. To ensure smooth performance, the model is optimized using TF-IDF vectorization and cosine similarity, with lazy loading to improve speed on deployment platforms like Render.\n\nThe project demonstrates practical implementation of machine learning concepts, REST API development, and full-stack deployment, making it suitable for real-world applications and portfolio showcase.",
+        "link": "https://movie-recommender-eef4.onrender.com/"
+    },
+    {
+        "name": "Sarthak Siddharth Sahare",
+        "section": "CY III Year",
+        "title": "Ballistics Encyclopedia",
+        "description": "Educational firearm ballistics encyclopedia built with Next.js 14, Tailwind CSS, Framer Motion, Fuse.js, and Recharts.",
+        "link": "https://ballisticsencyclopedia.streamlit.app/"
+    },
+    {
+        "name": "Shailendra Charan",
+        "section": "CY III Year",
+        "title": "Academic Content Generator",
+        "description": "Academic Content Generator is a Python web app that creates structured academic research paper drafts from any topic. It generates sections like Title, Abstract, Introduction, Literature Review, Methodology, Results and Discussion, and Conclusion using either an offline generator or the OpenAI API.",
+        "link": "https://academic-content-generator.onrender.com"
+    },
+    {
+        "name": "Sudiksha Sirohi",
+        "section": "CSIT2 III Year",
+        "title": "FakeGuard AI",
+        "description": "FakeGuard AI is a deep learning-based Fake News Detection System that automatically classifies news articles as Fake or Real using an LSTM neural network trained on 44,000+ labeled articles. The model uses an NLP preprocessing pipeline \u2014 including text cleaning, tokenization, and sequence padding \u2014 before passing data through Embedding, LSTM, and Dense layers to produce a confidence-scored prediction. It achieves approximately 94\u201396% accuracy on the test dataset using Binary Cross-Entropy loss and the Adam optimizer.",
+        "link": "https://old-hall-b3f5.sudikshasirohi2.workers.dev"
+    },
+    {
+        "name": "Surabhi Solanki",
+        "section": "CSIT2 III Year",
+        "title": "Covid-19 Research Assistant AI",
+        "description": "This platform is an advanced AI research ecosystem built on PyTorch and Hugging Face Transformers, utilizing SBERT semantic embeddings to perform high-precision search across thousands of scholarly documents stored in ChromaDB. It integrates Google Gemini 1.5 as the core LLM for RAG-powered paper drafting and summarization, while leveraging scispaCy for specialized medical named entity recognition. The final system is deployed as a high-performance Streamlit application, providing researchers with a state-of-the-art deep learning pipeline for rapid scientific discovery. \nThe platform also generates research papers related to COVID-19\n\nThis is a rough project and still in development. More functionalities and UI will be added later",
+        "link": "https://covid-research-b7bnomdwen7extxpnhszko.streamlit.app/"
+    },
+    {
+        "name": "suryakant chaturvedi",
+        "section": "CSIT2 III Year",
+        "title": "antigravity-jarvis",
+        "description": "antigravity-jarvis",
+        "link": "https://antigravityjravis.vercel.app?_vercel_share=GakFKAHFiKsulEjzoxE4mpknzeqD0DxY"
+    },
+    {
+        "name": "TANISH GUPTA",
+        "section": "CSIT1 III Year",
+        "title": "Research-Paper-Content-Generator",
+        "description": "Academic Writing Workspace,\nResearch Paper Content Generator,\nGenerate structured academic research paper content from a topic using a formal, research-oriented writing style.\n\nGenerated sections\nTitle, Abstract, Introduction, Literature Review, Methodology, Results & Discussion, and Conclusion.",
+        "link": "https://research-paper-content-generator.onrender.com"
+    },
+    {
+        "name": "Tanisha Jain",
+        "section": "CSIT2 III Year",
+        "title": "NIRVANA.ai \u2013 AI-Powered System Architecture Visualization Platform",
+        "description": "NIRVANA.ai is an AI-driven platform that converts natural language system design prompts into structured architecture visualizations and quantitative system metrics. The platform processes user input through an LLM-based pipeline using Groq and LangChain to generate structured JSON outputs representing system components, architecture diagrams, and performance metrics.\n\nThe backend parses and validates these outputs to extract quantitative data such as load distribution, bottlenecks, and architectural constraints. The frontend dynamically renders interactive architecture diagrams, system maps, and quantitative performance metrics to help developers analyze and optimize system designs.\n\nThis tool helps engineers, students, and architects quickly prototype scalable system architectures, visualize infrastructure components, and understand system behavior without manually designing complex diagrams.",
+        "link": "https://nirvana-architect-ucbw.vercel.app/"
+    },
+    {
+        "name": "Tanisha Kariya",
+        "section": "CSIT1 III Year",
+        "title": "Smart Resume Screener",
+        "description": "\u201cThis project is a Smart Resume Screening System that uses Machine Learning to automatically analyze resumes and check how well they match a job role.\u201d\n\n1> How it Works- \u201cFirst, the system takes the resume and converts it into text. Then it cleans the text and extracts important information like skills. After that, we use a Machine Learning technique called TF-IDF to convert the text into numbers. Finally, a Logistic Regression model analyzes it and gives a match score and recommendation.\u201d\n\n2> Output Explanation- \u201cThe system shows: Match percentage (like 75%) Skills found in the resume Final suggestion: Suitable or needs improvement\u201d\n\n3> Technologies Used- \u201cWe used Python, Flask for backend, and Machine Learning techniques like TF-IDF and Logistic Regression.\u201d\n\n4> Real-Life Use- \u201cThis system can help HR teams shortlist candidates faster and reduce manual work.\u201d",
+        "link": "https://github.com/kariyatanisha/silver-funicular"
+    },
+    {
+        "name": "Tanvi Shrivastava",
+        "section": "CSIT2 III Year",
+        "title": "Diabetes-predictor",
+        "description": "Smart Diabetes Predictor is a machine learning-based mini project developed to predict whether a person is diabetic or non-diabetic using important medical parameters such as pregnancies, glucose level, blood pressure, skin thickness, insulin, BMI, diabetes pedigree function, and age. The project includes data preprocessing, missing value handling, feature scaling, feature selection, model training, and performance evaluation using multiple supervised learning algorithms like Logistic Regression, Decision Tree, Random Forest, and Support Vector Machine. The model  provides real-time prediction, probability score, risk level, and basic result explanation through an easy-to-use interface.",
+        "link": "https://diabetes-predictor-tumtwcikhbk7q6l9cwtgxs.streamlit.app/"
+    },
+    {
+        "name": "Vanshika patel",
+        "section": "CSIT2 III Year",
+        "title": "Smart URl and scam detector",
+        "description": "Smart URL and Scam Detection is a machine learning-based project that identifies and classifies suspicious or harmful URLs. It analyzes various features of URLs to detect phishing, fraud, and scam-related activities. The system helps enhance online security by preventing users from accessing unsafe websites.",
+        "link": "https://smart-url-scam-detector-nrtrntisfooybjukdbz3qv.streamlit.app/"
+    },
+    {
+        "name": "Vedika Butani",
+        "section": "CSIT2 III Year",
+        "title": "News Article Detector",
+        "description": "News Detection is a machine learning-based project that classifies news articles as real or fake using Natural Language Processing techniques. It analyses text data and predicts authenticity through a trained model.",
+        "link": "https://news-detection-model-3yxwkobzc8dt7wncxzzfvi.streamlit.app/"
+    },
+    {
+        "name": "Vinay Pratap Singh Thakur",
+        "section": "CSIT2 III Year",
+        "title": "Laptop AI Price Predictor",
+        "description": "AI-powered laptop price estimation with quality scoring & recommendations",
+        "link": "https://laptop-price-prediction-project-4.onrender.com"
+    },
+    {
+        "name": "Vishwajeet Thakur",
+        "section": "CSIT2 III Year",
+        "title": "Jarvis",
+        "description": "AntiGravity Jarvis is a modern AI assistant frontend inspired by futuristic virtual assistants like Jarvis. Built with React and Vite, it provides a responsive and visually engaging interface for interacting with AI systems, designed to be extended with voice, automation, and intelligent backend capabilities.",
+        "link": "https://vishwajett-jarviss.vercel.app/"
+    },
+    {
+        "name": "Yash sikarwar",
+        "section": "CSIT2 III Year",
+        "title": "Resume-screener",
+        "description": "Machine learning model for a resume screener that classifies and ranks candidates based on job relevance",
+        "link": "https://businesses-cookbook-graphs-reaction.trycloudflare.com"
+    },
+    {
+        "name": "yuvraj singh pawar",
+        "section": "CSIT2 III Year",
+        "title": "Movie Recommendation System",
+        "description": "A full-stack movie recommendation system that combines TF-IDF content-based filtering with real-time movie data from the OMDB API. Built with a FastAPI backend and a Streamlit frontend, CineMatch helps you discover your next favorite movie through intelligent, AI-driven similarity analysis.",
+        "link": "https://movie-recommendation-nlp-dl-kimz2tzwyqizisbudhtqwr.streamlit.app/"
+    }
+]

@@ -1,0 +1,1048 @@
+:root {
+    /* Color Palette - Dark Slate & Muted Teal */
+    --bg-dark: #0f172a;
+    --bg-card: rgba(30, 41, 59, 0.7);
+    --bg-card-hover: rgba(30, 41, 59, 0.9);
+    --bg-card-expanded: rgba(22, 33, 50, 0.98);
+    --accent-primary: #0d9488;
+    --accent-secondary: #14b8a6;
+    --accent-glow: rgba(20, 184, 166, 0.2);
+
+    --text-primary: #f8fafc;
+    --text-secondary: #94a3b8;
+    --text-muted: #64748b;
+
+    --border-color: rgba(255, 255, 255, 0.08);
+    --border-color-hover: rgba(20, 184, 166, 0.3);
+
+    /* Layout */
+    --container-width: 1200px;
+    --border-radius: 16px;
+    --transition-fast: 0.2s ease;
+    --transition-normal: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-slow: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg-dark);
+    color: var(--text-primary);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    position: relative;
+}
+
+/* Background Effects */
+.background-effects {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.glow-orb {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(100px);
+    opacity: 0.4;
+}
+
+.top-left {
+    top: -10%;
+    left: -10%;
+    width: 50vw;
+    height: 50vw;
+    background: radial-gradient(circle, var(--accent-glow) 0%, transparent 70%);
+}
+
+.bottom-right {
+    bottom: -10%;
+    right: -10%;
+    width: 60vw;
+    height: 60vw;
+    background: radial-gradient(circle, rgba(15, 23, 42, 0.8) 0%, transparent 70%);
+}
+
+/* Layout Containers */
+.container {
+    width: 100%;
+    max-width: var(--container-width);
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+/* Header */
+.header {
+    padding: 60px 0 40px;
+    text-align: center;
+}
+
+.page-title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+    background: linear-gradient(to right, var(--text-primary), var(--accent-secondary));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: -1px;
+}
+
+.page-subtitle {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+    margin-bottom: 40px;
+}
+
+/* Controls Bar */
+.controls-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.search-container {
+    position: relative;
+    flex: 1;
+    max-width: 400px;
+}
+
+.search-icon {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-secondary);
+    font-size: 1.2rem;
+}
+
+#searchInput {
+    width: 100%;
+    padding: 14px 16px 14px 48px;
+    border-radius: 30px;
+    background: rgba(30, 41, 59, 0.5);
+    border: 1px solid var(--border-color);
+    color: var(--text-primary);
+    font-family: inherit;
+    font-size: 1rem;
+    outline: none;
+    transition: var(--transition-fast);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+#searchInput:focus {
+    border-color: var(--accent-primary);
+    box-shadow: 0 0 0 3px var(--accent-glow);
+    background: rgba(30, 41, 59, 0.8);
+}
+
+.view-toggles {
+    display: flex;
+    gap: 8px;
+    background: rgba(30, 41, 59, 0.5);
+    padding: 6px;
+    border-radius: 20px;
+    border: 1px solid var(--border-color);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.toggle-btn {
+    background: transparent;
+    border: none;
+    color: var(--text-secondary);
+    width: 40px;
+    height: 40px;
+    border-radius: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    transition: var(--transition-fast);
+}
+
+.toggle-btn:hover {
+    color: var(--text-primary);
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.toggle-btn.active {
+    color: var(--bg-dark);
+    background: var(--accent-secondary);
+    box-shadow: 0 4px 12px var(--accent-glow);
+}
+
+/* Student Container Views */
+.student-container {
+    margin-bottom: 80px;
+}
+
+/* Grid View */
+.student-container.grid-view {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+    gap: 24px;
+}
+
+/* List View */
+.student-container.list-view {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+/* ===========================
+   Card Wrapper — holds grid space
+   =========================== */
+.card-wrapper {
+    position: relative;
+    /* z-index creates stacking context per wrapper */
+}
+
+.card-wrapper.is-expanded {
+    z-index: 100;
+}
+
+/* ===========================
+   Student Card
+   =========================== */
+.student-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    padding: 32px;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    cursor: pointer;
+    transition:
+        width 0.3s cubic-bezier(0.4, 0, 0.2, 1) 0.15s,
+        left 0.3s cubic-bezier(0.4, 0, 0.2, 1) 0.15s,
+        box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+        background 0.3s ease,
+        border-color 0.3s ease,
+        transform 0.3s ease;
+    position: relative;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.student-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(to bottom, var(--accent-secondary), var(--accent-primary));
+    opacity: 0;
+    transition: opacity var(--transition-normal);
+}
+
+.student-card:hover {
+    transform: translateY(-4px);
+    background: var(--bg-card-hover);
+    border-color: var(--border-color-hover);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+}
+
+.student-card:hover::before {
+    opacity: 1;
+}
+
+/* ===========================
+   Expanded & Closing States
+   =========================== */
+.card-wrapper.is-expanded .student-card,
+.card-wrapper.is-closing .student-card {
+    position: absolute;
+    top: 0;
+    z-index: 100;
+}
+
+.card-wrapper.is-closing .student-card {
+    z-index: 90;
+    left: 0;
+    width: 100%;
+}
+
+.card-wrapper.is-expanded .student-card {
+    /* Center the wider card over its original cell */
+    left: -30%;
+    width: 160%;
+    background: var(--bg-card-expanded);
+    border-color: var(--accent-primary);
+    box-shadow:
+        0 0 0 1px rgba(20, 184, 166, 0.15),
+        0 25px 60px rgba(0, 0, 0, 0.5),
+        0 0 40px rgba(20, 184, 166, 0.08);
+    cursor: default;
+    transform: none;
+    transition:
+        width 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+        left 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+        box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+        background 0.3s ease,
+        border-color 0.3s ease,
+        transform 0.3s ease;
+}
+
+.card-wrapper.is-expanded .student-card:hover {
+    transform: none;
+}
+
+.card-wrapper.is-expanded .student-card::before {
+    opacity: 1;
+}
+
+/* Card Header */
+.card-header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+/* Avatar / Image Placeholder */
+.avatar {
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--accent-primary) 0%, var(--accent-secondary) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--accent-secondary);
+    flex-shrink: 0;
+    overflow: hidden;
+    transition: var(--transition-normal);
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Basic Info */
+.basic-info h2 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 4px;
+    color: var(--text-primary);
+}
+
+.enrollment {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    font-family: monospace;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 2px 8px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.section-badge {
+    font-size: 0.75rem;
+    color: var(--accent-secondary);
+    font-family: monospace;
+    background: rgba(20, 184, 166, 0.1);
+    padding: 2px 8px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+/* Project preview shown on collapsed card */
+.card-preview {
+    margin-top: 16px;
+    padding-top: 14px;
+    border-top: 1px solid var(--border-color);
+}
+
+.preview-label {
+    font-size: 0.7rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.preview-live-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #34d399;
+    display: inline-block;
+    animation: livePulse 2s ease-in-out infinite;
+    box-shadow: 0 0 6px rgba(52, 211, 153, 0.6);
+}
+
+@keyframes livePulse {
+    0%, 100% { opacity: 0.5; transform: scale(1); box-shadow: 0 0 4px rgba(52, 211, 153, 0.4); }
+    50% { opacity: 1; transform: scale(1.4); box-shadow: 0 0 10px rgba(52, 211, 153, 0.8); }
+}
+
+.preview-title {
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: var(--text-secondary);
+    margin-top: 4px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Close button on expanded card */
+.close-card-btn {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid var(--border-color);
+    color: var(--text-secondary);
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: var(--transition-fast);
+    z-index: 10;
+    font-size: 1rem;
+}
+
+.close-card-btn:hover {
+    background: rgba(255, 255, 255, 0.15);
+    color: var(--text-primary);
+    transform: rotate(90deg);
+}
+
+.card-wrapper.is-expanded .close-card-btn {
+    display: flex;
+}
+
+/* ===========================
+   Quick Info (List View Only)
+   =========================== */
+.list-quick-info {
+    display: none;
+}
+
+.section-mini {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: 0;
+}
+
+.badge-row {
+    display: flex;
+    gap: 12px;
+    color: var(--accent-secondary);
+    font-size: 1.2rem;
+}
+
+.badge-row i {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 6px;
+    border-radius: 6px;
+    border: 1px solid var(--border-color);
+}
+
+/* ===========================
+   Expandable Details Section
+   =========================== */
+.card-details {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition:
+        grid-template-rows 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+        opacity 0.2s ease;
+    opacity: 0;
+}
+
+.card-wrapper.is-expanded .card-details {
+    grid-template-rows: 1fr;
+    opacity: 1;
+    transition:
+        grid-template-rows 0.4s cubic-bezier(0.4, 0, 0.2, 1) 0.15s,
+        opacity 0.3s ease 0.15s;
+}
+
+.details-content-wrapper {
+    overflow: hidden;
+    min-height: 0;
+    /* Strict requirement for Firefox to collapse grid-template-rows: 0fr */
+}
+
+.details-content {
+    padding-top: 20px;
+    margin-top: 16px;
+    border-top: 1px solid var(--border-color);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+/* Project Info */
+.project-info {
+    margin-bottom: 4px;
+}
+
+.project-label {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.project-title {
+    font-size: 1.05rem;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.project-description {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-top: 8px;
+}
+
+.project-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--accent-secondary);
+    text-decoration: none;
+    font-size: 0.9rem;
+    margin-top: 8px;
+    transition: var(--transition-fast);
+}
+
+.project-link:hover {
+    color: #fff;
+}
+
+/* Action Buttons Container */
+.action-buttons {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
+    margin-top: 4px;
+}
+
+/* ===========================
+   CATCHY Deploy Button — Gradient Glow
+   =========================== */
+.action-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 14px 20px;
+    border-radius: 12px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(135deg, var(--accent-primary), #0ea5e9, var(--accent-secondary));
+    background-size: 200% 200%;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+                box-shadow 0.3s ease,
+                background-position 0.5s ease;
+    box-shadow: 0 4px 20px rgba(20, 184, 166, 0.25),
+                0 0 0 1px rgba(20, 184, 166, 0.15);
+    letter-spacing: 0.3px;
+    cursor: pointer;
+}
+
+.action-btn i {
+    font-size: 1.2rem;
+    transition: transform 0.3s ease;
+}
+
+/* Shimmer sweep effect */
+.action-btn::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 100%;
+    background: linear-gradient(
+        105deg,
+        transparent 30%,
+        rgba(255, 255, 255, 0.2) 50%,
+        transparent 70%
+    );
+    transition: none;
+    transform: translateX(-200%);
+    animation: shimmerSweep 3s ease-in-out infinite;
+}
+
+@keyframes shimmerSweep {
+    0% { transform: translateX(-200%); }
+    50% { transform: translateX(200%); }
+    100% { transform: translateX(200%); }
+}
+
+.action-btn:hover {
+    transform: translateY(-3px) scale(1.02);
+    box-shadow: 0 8px 30px rgba(20, 184, 166, 0.4),
+                0 0 0 1px rgba(20, 184, 166, 0.3),
+                0 0 60px rgba(20, 184, 166, 0.1);
+    background-position: 100% 0;
+}
+
+.action-btn:hover i {
+    transform: translateX(2px) rotate(-10deg);
+}
+
+.action-btn:active {
+    transform: translateY(-1px) scale(0.99);
+}
+
+/* Live dot inside button */
+.btn-live-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #34d399;
+    box-shadow: 0 0 8px rgba(52, 211, 153, 0.8);
+    animation: livePulse 2s ease-in-out infinite;
+    flex-shrink: 0;
+}
+
+/* Disabled button state */
+.action-btn.disabled {
+    opacity: 0.35;
+    pointer-events: none;
+    filter: grayscale(1);
+    box-shadow: none;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--border-color);
+    color: var(--text-muted);
+}
+
+.action-btn.disabled::after {
+    display: none;
+}
+
+/* Email Display */
+.email-display {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+.email-display a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.email-display a:hover {
+    color: var(--accent-secondary);
+}
+
+/* List View Specific Overrides */
+.list-view .card-wrapper.is-expanded .student-card,
+.list-view .card-wrapper.is-closing .student-card {
+    position: relative;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.list-view .card-wrapper.is-expanded .student-card {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.list-view .student-card {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px 32px;
+    row-gap: 16px;
+    /* Space when wrapping on smaller screens */
+}
+
+.list-view .card-header {
+    flex: 1.5;
+    min-width: 280px;
+}
+
+.list-view .card-preview {
+    flex: 1;
+    min-width: 180px;
+    border-top: none;
+    margin-top: 0;
+    padding-top: 0;
+    padding-left: 24px;
+    border-left: 1px solid var(--border-color);
+}
+
+.list-view .list-quick-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    flex: 1;
+    min-width: 180px;
+    padding-left: 24px;
+    border-left: 1px solid var(--border-color);
+}
+
+.list-view .card-details {
+    flex-basis: 100%;
+}
+
+/* Utilities */
+.hidden {
+    display: none !important;
+}
+
+.no-results {
+    text-align: center;
+    padding: 60px 0;
+    color: var(--text-muted);
+    font-size: 1.2rem;
+}
+
+.no-results i {
+    font-size: 3rem;
+    margin-bottom: 16px;
+    color: var(--text-secondary);
+}
+
+/* Footer */
+.footer {
+    margin-top: auto;
+    padding: 30px 0;
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    border-top: 1px solid var(--border-color);
+}
+
+/* Entrance Animations */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.student-card.animate-in {
+    animation: fadeInUp 0.5s ease forwards;
+}
+
+/* Mobile Responsiveness */
+
+/* Tablet — 2-column grid, slightly smaller cards */
+@media (max-width: 1024px) {
+    .student-container.grid-view {
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 20px;
+    }
+
+    .card-wrapper.is-expanded .student-card {
+        left: -15%;
+        width: 130%;
+    }
+
+    .student-card {
+        padding: 24px;
+    }
+
+    .avatar {
+        width: 72px;
+        height: 72px;
+        font-size: 1.3rem;
+    }
+}
+
+/* Phone — single column, stacked list view */
+@media (max-width: 768px) {
+    /* Mobile Performance Optimizations */
+    .background-effects {
+        display: none; /* Heavy blur is a GPU killer on mobile */
+    }
+
+    #searchInput {
+        backdrop-filter: none;
+        -webkit-backdrop-filter: none;
+        background: rgba(30, 41, 59, 0.95);
+    }
+
+    .container {
+        padding: 0 14px;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    .header {
+        padding: 36px 0 24px;
+    }
+
+    .controls-bar {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 12px;
+        margin-top: 20px;
+    }
+
+    .search-container {
+        max-width: 100%;
+    }
+
+    .view-toggles {
+        display: none;
+    }
+
+    .page-title {
+        font-size: 1.8rem;
+    }
+
+    .page-subtitle {
+        font-size: 0.9rem;
+        margin-bottom: 20px;
+    }
+
+    /* Grid on mobile: single column, no overflow */
+    .student-container.grid-view {
+        grid-template-columns: 1fr;
+        gap: 14px;
+    }
+
+    /* Expanded card stays contained on mobile */
+    .card-wrapper.is-expanded .student-card,
+    .card-wrapper.is-closing .student-card {
+        position: relative;
+        left: 0 !important;
+        width: 100% !important;
+    }
+
+    .student-card {
+        padding: 18px;
+        backdrop-filter: none;
+        -webkit-backdrop-filter: none;
+        background: rgba(30, 41, 59, 0.95); /* More opaque since blur is removed */
+        /* Strip expensive layout transitions on mobile */
+        transition: transform 0.2s ease, background 0.2s ease, border-color 0.2s ease;
+        box-shadow: none !important; /* Shadows destroy mobile FPS during layout */
+    }
+    
+    .card-wrapper.is-expanded .student-card {
+        transition: transform 0.2s ease, background 0.2s ease, border-color 0.2s ease;
+        box-shadow: none !important; /* Shadows destroy mobile FPS during layout */
+    }
+
+    /* Disable infinite animations that choke the GPU on mobile */
+    .action-btn::after {
+        display: none !important;
+        animation: none !important;
+    }
+
+
+
+    .avatar {
+        width: 52px;
+        height: 52px;
+        font-size: 1.1rem;
+    }
+
+    .card-header {
+        gap: 12px;
+    }
+
+    .basic-info h2 {
+        font-size: 1rem;
+    }
+
+    .enrollment {
+        font-size: 0.75rem;
+    }
+
+    .card-preview {
+        margin-top: 12px;
+        padding-top: 10px;
+    }
+
+    .preview-title {
+        font-size: 0.85rem;
+    }
+
+    /* List view: stack columns vertically */
+    .list-view .student-card {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 18px;
+        row-gap: 0;
+    }
+
+    .list-view .card-header {
+        min-width: unset;
+        width: 100%;
+    }
+
+    .list-view .card-preview {
+        border-left: none;
+        padding-left: 0;
+        border-top: 1px solid var(--border-color);
+        margin-top: 12px;
+        padding-top: 12px;
+        width: 100%;
+        min-width: unset;
+    }
+
+    /* Hide quick-info on mobile list — the details section already shows this */
+    .list-view .list-quick-info {
+        display: none;
+    }
+
+    .list-view .card-details {
+        width: 100%;
+    }
+
+    .action-buttons {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .action-btn {
+        padding: 10px 14px;
+        font-size: 0.85rem;
+    }
+
+    .email-display {
+        font-size: 0.8rem;
+        word-break: break-all;
+    }
+
+    .close-card-btn {
+        width: 28px;
+        height: 28px;
+        font-size: 0.85rem;
+        top: 10px;
+        right: 10px;
+    }
+
+    .student-container {
+        margin-bottom: 40px;
+    }
+
+    .details-content {
+        gap: 12px;
+    }
+
+    .project-title {
+        font-size: 0.95rem;
+    }
+
+    .project-link {
+        font-size: 0.85rem;
+    }
+}
+
+/* Ultra-small screens */
+@media (max-width: 400px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    .header {
+        padding: 28px 0 18px;
+    }
+
+    .page-title {
+        font-size: 1.5rem;
+    }
+
+    .student-card {
+        padding: 14px;
+        border-radius: 12px;
+    }
+
+    .avatar {
+        width: 44px;
+        height: 44px;
+        font-size: 0.9rem;
+    }
+
+    .basic-info h2 {
+        font-size: 0.9rem;
+    }
+
+    .card-header {
+        gap: 10px;
+    }
+
+    #searchInput {
+        padding: 12px 14px 12px 40px;
+        font-size: 0.85rem;
+    }
+
+    .search-icon {
+        font-size: 1rem;
+        left: 14px;
+    }
+
+    .toggle-btn {
+        width: 34px;
+        height: 34px;
+        font-size: 1rem;
+    }
+
+    .action-buttons {
+        gap: 8px;
+    }
+
+    .action-btn {
+        padding: 10px 12px;
+        font-size: 0.8rem;
+        border-radius: 8px;
+    }
+}
