@@ -4,21 +4,24 @@
         "section": "CSIT1 III Year",
         "title": "FloraGuard Pro",
         "description": "plant disease detection system",
-        "link": "https://dl-ten-umber.vercel.app/"
+        "link": "https://dl-ten-umber.vercel.app/",
+        "blogLink": "https://abhaydugaya-rnn.blogspot.com/2026/05/recurrent-neural-networkrnnthe-power-of.html"
     },
     {
         "name": "Aditi Kumrawat",
         "section": "CSIT1 III Year",
         "title": "Student Marks Predictor using Machine Learning",
         "description": "This project is a Machine Learning-based web application developed to predict a student\u2019s final academic performance. The system uses a Linear Regression model to estimate final marks based on key factors such as study hours, attendance percentage, and previous exam scores.\n\nThe application is built using Python and utilizes libraries like Scikit-learn for model development, Pandas and NumPy for data handling, and Matplotlib for visualization. A user-friendly interface is created using Streamlit, allowing users to input their data through interactive sliders and instantly receive predicted results.\n\nThe project demonstrates the practical implementation of supervised learning and shows how machine learning can be integrated into real-world applications. Additionally, the app is deployed on Streamlit Cloud, making it accessible online.",
-        "link": "https://student-marks-predictor-s6vmb2ldo2dv763jwdaggs.streamlit.app/"
+        "link": "https://student-marks-predictor-s6vmb2ldo2dv763jwdaggs.streamlit.app/",
+        "blogLink": "https://aditikumrawat.hashnode.dev/how-random-forest-improves-prediction-accuracy"
     },
     {
         "name": "Aditya Tiwari",
         "section": "CSIT1 III Year",
         "title": "AI Content Detector",
         "description": "An application trained on large number of AI-generated and real images and texts, and detects whether the uploaded image/text is AI-generated or real, having an accuracy of 89%.",
-        "link": "https://ai-content-detector-csit-project.streamlit.app/"
+        "link": "https://ai-content-detector-csit-project.streamlit.app/",
+        "blogLink": "https://medium.com/@tiwariaditya005/when-machines-learned-to-remember-5769d86c1b49"
     },
     {
         "name": "Alankriti dwivedi",
@@ -32,14 +35,16 @@
         "section": "CSIT1 III Year",
         "title": "CivicConnect: AI-Powered Civic Issue Detection and Automated Complaint Generation",
         "description": "CivicConnect is an end-to-end ML/DL project designed to automate urban civic issue reporting by combining computer vision, geolocation intelligence, and text generation. The system takes an uploaded road image as input and uses a custom-trained YOLOv8 deep learning model to classify civic issues into three categories: pothole road, garbage on road, and broken road asphalt. After prediction, the application estimates issue severity from model confidence, captures location through browser geolocation, and performs reverse geocoding to generate a human-readable address.\nThe final output is not just a class label, but a complete citizen-ready report that includes issue type, confidence score, severity level, timestamp, mapped location, and an auto-generated formal complaint letter for municipal authorities. The solution is implemented as a microservices architecture with separate frontend, backend, and model inference services, making it scalable and deployment-friendly.\nThis project demonstrates practical use of deep learning for social impact by reducing manual effort, improving reporting speed, and enabling structured communication between citizens and civic bodies. It highlights how AI can move beyond prediction into actionable public-service workflows.",
-        "link": "https://7ac6-47-247-173-78.ngrok-free.app"
+        "link": "https://7ac6-47-247-173-78.ngrok-free.app",
+        "blogLink": "https://www.kaggle.com/code/amaymishra11/understanding-resnet-deep-dive-into-resnet"
     },
     {
         "name": "AMBAR YADAV",
         "section": "CSIT1 III Year",
         "title": "STUDENT ACADEMIC TRACKER",
         "description": "An AI-powered student achievement forecasting system that predicts final exam marks using machine learning. Built with Streamlit and scikit-learn, it analyzes key academic factors like study hours, attendance, and previous performance to provide accurate grade predictions. Designed for educators, students, and educational institutions to identify at-risk students, estimate grades, and understand academic success patterns through interactive visualizations and real-time predictions",
-        "link": "https://student-marks-predictor-production.up.railway.app"
+        "link": "https://student-marks-predictor-production.up.railway.app",
+        "blogLink": "https://ambaryadavwrites.blogspot.com/2026/05/sigmoid-vs-relu.html"
     },
     {
         "name": "Amit Yadav",
@@ -74,56 +79,64 @@
         "section": "CSIT1 III Year",
         "title": "AI Generated Image Detector",
         "description": "- AI Image Forensics Engine - \n\n\u200bA web app that spots deepfakes and AI-generated images\u2014and actually explains why they're fake.\n\n\u200bHow it works:- \n\n\u200bDeep Learning Detection: It doesn\u2019t just read metadata. The vision model scans for pixel-level mistakes, weird lighting, and structural glitches that AI generators usually mess up.\n\u200bInteractive Chatbot: We solved the machine learning \"black box\" problem. If an image gets flagged, you can use the built-in chat to ask an LLM exactly what looks manipulated in the photo.\n\u200bSmart Backend: Engineered with dynamic API routing. It automatically hunts for live model endpoints so the app doesn't crash if a specific model version gets deprecated.\n\u200bCustom SaaS UI: Built on Streamlit, but heavily injected with custom CSS to ditch the default \"data dashboard\" look in favor of a modern, card-based frontend.",
-        "link": "https://ai-generated-image-detector-5he54zyqvqeyzcfphcmtbq.streamlit.app/"
+        "link": "https://ai-generated-image-detector-5he54zyqvqeyzcfphcmtbq.streamlit.app/",
+        "blogLink": "https://anujmalviya20.blogspot.com/2026/05/reinforcement-learning.html"
     },
     {
         "name": "Ashwin carpenter",
         "section": "CSIT1 III Year",
         "title": "Plant disease",
         "description": "Predicts diseases",
-        "link": "https://curly-dew-c995.ashwincarpenter924.workers.dev/"
+        "link": "https://curly-dew-c995.ashwincarpenter924.workers.dev/",
+        "blogLink": "https://dailynewsanalysishindi.blogspot.com/2026/05/Linearregression.html?m=1"
     },
     {
         "name": "Avi Kedare",
         "section": "CSIT1 III Year",
         "title": "Animal Species Identifier",
         "description": "Animal Species Identifier is developed to provide an efficient and automated solution for identifying animal species from images, reducing the need for manual classification. It uses a pretrained MobileNet model with transfer learning to classify 90 animal species with ~90% accuracy. The system allows users to upload images and get real-time predictions, making it useful for wildlife monitoring, biodiversity research, education, and smart surveillance systems.",
-        "link": "https://animal-species-identifier-ak.vercel.app/"
+        "link": "https://animal-species-identifier-ak.vercel.app/",
+        "blogLink": "https://avi-kedare-vanshing-gradient.blogspot.com/2026/05/vanishing-gradient-problem-in-deep.html"
     },
     {
         "name": "Ayush Patel",
         "section": "CSIT1 III Year",
         "title": "Emotion Detector",
         "description": "An Emotion Detector is a system (software or device) that identifies human emotions\u2014like happiness, sadness, anger, or surprise\u2014based on signals such as facial expressions",
-        "link": "https://emotion-detection-glal.onrender.com/"
+        "link": "https://emotion-detection-glal.onrender.com/",
+        "blogLink": "https://ayushpatel-mdp.blogspot.com/2026/05/mdpmarkov-decision-process.html"
     },
     {
         "name": "Chirag",
         "section": "CSIT1 III Year",
         "title": "\u201cAI-Based Fruit Detection and Classification System Using Deep Learning\u201d",
         "description": "This project is a web-based application that uses deep learning to detect and classify fruits from images. Users can upload a fruit image, and the system predicts its type using a trained Convolutional Neural Network (CNN) model. The application provides fast and accurate results through a simple and user-friendly interface.",
-        "link": "https://fruit-detector-dl-63py.vercel.app/"
+        "link": "https://fruit-detector-dl-63py.vercel.app/",
+        "blogLink": "https://reinforcementlearningchirag.blogspot.com/2026/05/introduction-to-reinforcement-learning.html"
     },
     {
         "name": "Deeva Jain",
         "section": "CSIT1 III Year",
         "title": "AI resume match maker",
         "description": "AI Resume Match Maker is an intelligent tool that analyzes a candidate\u2019s resume and compares it with job descriptions to calculate compatibility. It highlights matching skills, missing keywords, and overall fit score to help users improve their resume and increase selection chances.",
-        "link": "https://ai-resume-matcher-k743.onrender.com"
+        "link": "https://ai-resume-matcher-k743.onrender.com",
+        "blogLink": "https://medium.com/@deevajain2607/auto-encoder-from-basic-to-advanced-b14151c8944a"
     },
     {
         "name": "devang sharma",
         "section": "CSIT1 III Year",
         "title": "plant disease detection",
         "description": "Developed a machine learning-based system to detect plant diseases from leaf images using image processing and CNN models.",
-        "link": "https://ml-plant-disease-detection.onrender.com"
+        "link": "https://ml-plant-disease-detection.onrender.com",
+        "blogLink": "https://medium.com/@devangsharma26102005/1d-vs-2d-convolution-in-deep-learning-using-python-6fd033b72d65"
     },
     {
         "name": "Dheer Panchal",
         "section": "CSIT1 III Year",
         "title": "Spam-Classifier",
         "description": "we paste the message from the email to the spam classifier and then we will be able to check that it is a spam email or a no spam geniune email",
-        "link": "https://spam-classifier-jk2f.onrender.com"
+        "link": "https://spam-classifier-jk2f.onrender.com",
+        "blogLink": "https://07dheer.blogspot.com/2026/05/rnn-and-cnn-backbone-of-deep-learning.html"
     },
     {
         "name": "Dhruv Jadhav",
@@ -137,14 +150,16 @@
         "section": "CSIT1 III Year",
         "title": "Vehical Detection System",
         "description": "The Vehicle Detection System is a computer vision-based application that automatically detects and classifies vehicles such as cars, buses, trucks, and motorcycles from images or video streams. The system leverages deep learning models to perform real-time object detection, making it useful for smart traffic management, surveillance, and automated monitoring systems.",
-        "link": "https://vehicle-sense.onrender.com"
+        "link": "https://vehicle-sense.onrender.com",
+        "blogLink": "https://realdipeshblog.blogspot.com/2026/05/artificial-neural-networks-brain-behind.html"
     },
     {
         "name": "Disha Asija",
         "section": "CSIT1 III Year",
         "title": "NeutralGuard Face Mask Detector",
         "description": "NeuralGuard is a deep learning-powered web application that provides real-time face mask detection on user-uploaded images. Built with Python, Streamlit, and TensorFlow, the application utilizes a two-stage AI pipeline: a Caffe SSD model for highly accurate face localization, followed by a custom MobileNetV2 neural network for mask classification. The project features a premium, completely custom frontend interface equipped with dynamic dark/light mode toggling, glassmorphism design, and an interactive dashboard that instantly outputs compliance analytics",
-        "link": "https://dishaasija315-face-mask-detection-app-2vrssw.streamlit.app/"
+        "link": "https://dishaasija315-face-mask-detection-app-2vrssw.streamlit.app/",
+        "blogLink": "https://dishaoneshotlearning.blogspot.com/2026/05/import-urlhttpsfonts.html"
     },
     {
         "name": "Divyanshu Prajapat",
@@ -158,7 +173,8 @@
         "section": "CSIT1 III Year",
         "title": "SentScope AI - Read between the Reviews",
         "description": "SentiScope AI is a deep learning-powered review intelligence platform built on a fine-tuned BERT Transformer architecture. It performs aspect-level sentiment analysis, fraud detection, and real-time review scoring \u2014 all from a single multi-task model trained on 4M+ Amazon reviews with 96.1% accuracy. The platform features an interactive live demo, bulk CSV analysis, and a production-ready REST API for seamless e-commerce integration.",
-        "link": "https://eklavyajangid305.github.io/SentiScope-AI/"
+        "link": "https://eklavyajangid305.github.io/SentiScope-AI/",
+        "blogLink": "https://eklavyaactor-criticmodel.blogspot.com/2026/05/bptt-rnn-cnn-difference-mdp-sarsa-actor.html"
     },
     {
         "name": "Gulisha Agrawal",
@@ -186,28 +202,32 @@
         "section": "CSIT1 III Year",
         "title": "Face detection",
         "description": "In thise project it detect the face and took the attendence",
-        "link": "https://face-recognition-attendence-system-j1uldwpvu-hariom4.vercel.app"
+        "link": "https://face-recognition-attendence-system-j1uldwpvu-hariom4.vercel.app",
+        "blogLink": "https://medium.com/@harshpatidar1966/yolo-42bb16a07965"
     },
     {
         "name": "Harshit Jain",
         "section": "CSIT1 III Year",
         "title": "Movie Recommendation System",
         "description": "A Movie Recommender System web application that suggests movies to users based on their preferences. It uses Machine Learning with Content-Based Filtering, where recommendations are generated by analyzing movie features such as genres, keywords, cast, crew, and plot similarity. By using techniques like Natural Language Processing (NLP) and Cosine Similarity, the system finds movies similar to the one selected by the user.",
-        "link": "https://movie-recommender-navy.vercel.app/"
+        "link": "https://movie-recommender-navy.vercel.app/",
+        "blogLink": "https://medium.com/@hardikjain1803/confusion-matrix-in-machine-learning-6528d4e9b95b"
     },
     {
         "name": "HRITIK PATEL",
         "section": "CSIT1 III Year",
         "title": "VisionAI Real-Time Object Detection with Anti-Gravity Effect",
         "description": "IT IS A OBJECT DETECTOR MODEL WHICH DETECT NUMBERS OF OBJECT VIA IMAGE UPLOAD ONCE IMAGE UPLOADED IT DETECTS EVERY OBJECT FROM IMAGE. CURRENTLY I AM WORKING IN LIVE OBJECT DETECTOR FEATURE",
-        "link": "https://object-detection-01.vercel.app/"
+        "link": "https://object-detection-01.vercel.app/",
+        "blogLink": "https://blogbyhritikpatelongru.blogspot.com/2026/05/blog-post.html"
     },
     {
         "name": "Ifrah Qureshi",
         "section": "CSIT1 III Year",
         "title": "EmoTrack AI",
         "description": "EmoTrack AI is a high-performance, real-time facial analytics platform that tracks human expressions and gender with a professional \"Vision Pro\" aesthetic.\n\nWhat it Does -\nThe app captures live video to perform three core AI functions simultaneously:\n\nIntelligent Tracking: Uses precise scanner brackets to detect and track faces.\nEmotion Analytics: Classifies moods (Happy, Sad, Angry, etc.) using a deep-learning Xception model.\nTemporal Stability: Employs a smoothing engine (30-frame average) to ensure classifications remain rock-solid and flicker-free.\n\nTechnologies Used\nCore AI: Python, TensorFlow, Keras, and OpenCV.\nUI/UX: Streamlit, Streamlit-WebRTC, and custom Vanilla CSS.\nInfrastructure: Hosted on GitHub and Streamlit Cloud (Linux environment).",
-        "link": "https://emotrackai.streamlit.app/"
+        "link": "https://emotrackai.streamlit.app/",
+        "blogLink": "https://svm-the-forgotten-ml-algorithm.blogspot.com/"
     },
     {
         "name": "Ishan Raut",
@@ -221,14 +241,16 @@
         "section": "CSIT1 III Year",
         "title": "Code-Catcher",
         "description": ".\n\n\ud83d\udd78\ufe0f Code-Catcher: Deep Learning OCR for Developers\n\n\ud83d\ude80 Overview\nCode-Catcher is an AI-powered web application designed to eliminate the tedious process of manually transcribing code from video tutorials, online courses, and presentations. By leveraging state-of-the-art Deep Learning Optical Character Recognition (OCR), Code-Catcher allows developers to upload a screenshot of any code snippet and instantly translates it into clean, copyable, and downloadable text.\n\n\ud83d\udca1 The Problem vs. The Solution\nThe Problem: We all watch coding tutorials where the instructor shares a block of code but leaves out the GitHub link. Pausing the video to type out complex syntax line-by-line breaks momentum and introduces typos.\n\nThe Solution: A rapid-prototyping utility where you simply drag and drop a screenshot, and the app's neural network engine extracts the text\u2014preserving vital programming structures like indentation, brackets, and symbols.\n\n\ud83e\udde0 Under the Hood: Models & Tech Stack\nThis project bridges advanced computer vision with a highly responsive, custom-styled frontend.\n\nDeep Learning / OCR Engine: Powered by EasyOCR (running on the PyTorch backend). Unlike legacy OCR systems (like Tesseract) that struggle with special characters, this model utilizes:\n\nCRAFT (Character Region Awareness for Text Detection): A sophisticated deep-learning algorithm that accurately detects text bounding boxes even in low-resolution video screenshots.\n\nCRNN (Convolutional Recurrent Neural Network): Handles the actual text recognition, heavily trained to recognize complex structures and programming syntax accurately.\n\nFrontend UI/UX: Built with Streamlit using extensively overridden CSS to create a premium, modern dark-mode aesthetic (Inter typography, custom hover states, and smooth loading animations).\n\nImage Processing: Utilizes OpenCV (Headless) and Pillow for robust image handling and matrix transformations before feeding data to the neural network.\n\n\u2728 Key Features\nHigh-Fidelity Extraction: Tuned to recognize tricky programming symbols { } [ ] ( ) : ; that standard OCRs miss.\n\nSmart Formatting: Includes algorithmic post-processing to intelligently group horizontal text blocks and estimate spatial indentation.\n\nPremium Dark Mode Interface: A distraction-free, developer-focused UI with an intuitive drag-and-drop dropzone.\n\nOne-Click Actions: Features a native st.code block for instant copy-to-clipboard functionality, plus a dedicated Download (.py) button to export the code directly to your local machine.\n\n\u2699\ufe0f Live Deployment\nThis application is containerized and deployed seamlessly on Streamlit Community Cloud, requiring zero local setup for end-users to enjoy lightning-fast code extraction.",
-        "link": "https://code-catch.streamlit.app/"
+        "link": "https://code-catch.streamlit.app/",
+        "blogLink": "https://guestssentiment.blogspot.com/2026/05/sentiment-analysis-decoding-what-resort.html"
     },
     {
         "name": "Ishika Sethiya",
         "section": "CSIT1 III Year",
         "title": "AI Waste Classification System",
         "description": "AI Waste Classification System \u267b\ufe0f\nA complete end-to-end Deep Learning system that classifies waste into Biodegradable and Recyclable categories using CNNs and Transfer Learning.\n\n\ud83d\ude80 Features\nDual Model Support: Custom CNN and MobileNetV2 (Transfer Learning).\nInteractive UI: Streamlit dashboard for image upload and live webcam input.\nSmart Suggestions: Provides disposal advice for each category.\nTraining Analytics: Visualizes Accuracy/Loss and performance metrics.\nReal-time Dashboard: Tracks classification statistics.\n\ud83d\udcc1 Project Structure\ndataset/: Organizes images for training and validation.\nmodels/: Stores trained model files (.h5) and evaluation plots.\nsrc/: Core logic for model building, preprocessing, and utilities.\napp.py: The Streamlit web application.\ntrain.py: Script to train and compare models.\ndataset_setup.py: Utility to prepare folder structure and data.\n\ud83d\udee0\ufe0f Getting Started\n1. Installation\nEnsure you have Python installed. Install dependencies:\n\npip install -r requirements.txt\n2. Dataset Preparation\nRun the setup script to create the folders:\n\npython dataset_setup.py\nImportant: Download the Waste Classification Dataset from Kaggle and place the images in dataset/train/ and dataset/val/ under the respective class folders.\n\n3. Training\nTrain the models using:\n\npython train.py\nThis will save custom_cnn.h5 and transfer_learning.h5 in the models/ folder.\n\n4. Running the Dashboard\nLaunch the Streamlit app:\n\nstreamlit run app.py\n\ud83e\udde0 Model Details\nCustom CNN: 3 Convolutional layers with MaxPooling and Dropout.\nTransfer Learning: MobileNetV2 base with custom Dense layers (Frozen weights for faster training).\n\ud83d\udca1 Smart Suggestions\nBiodegradable \u2192 Compost (Green)\nRecyclable \u2192 Recycle bin (Blue)\nDeveloped as a production-ready AI Waste Classification project.",
-        "link": "https://waste-classification-ai-guq4zqolrjvhfj4g5x7ebx.streamlit.app/"
+        "link": "https://waste-classification-ai-guq4zqolrjvhfj4g5x7ebx.streamlit.app/",
+        "blogLink": "https://medium.com/@ishikasethiya16/the-power-of-natural-language-processing-teaching-machines-to-understand-humans-1dae30f7792e"
     },
     {
         "name": "Jayant ray",
@@ -242,14 +264,16 @@
         "section": "CSIT1 III Year",
         "title": "fruit vision AI",
         "description": "https://deep-learning-henna.vercel.app?_vercel_share=vfSo5A6d30dB9BCbPEPH34FupEZDI7Oo",
-        "link": "https://deep-learning-henna.vercel.app?_vercel_share=vfSo5A6d30dB9BCbPEPH34FupEZDI7Oo"
+        "link": "https://deep-learning-henna.vercel.app?_vercel_share=vfSo5A6d30dB9BCbPEPH34FupEZDI7Oo",
+        "blogLink": "https://supportvectormachinejayesh54.blogspot.com/2026/05/supportvectormachinejayesh.html"
     },
     {
         "name": "Karan Patel",
         "section": "CSIT1 III Year",
         "title": "Plant Disease Detection",
         "description": "it suggest pesticides according to plant disease  when the farmer upload the effected plant photo then the it  suggest the best pesticides",
-        "link": "https://ml-plant-disease-detection.onrender.com"
+        "link": "https://ml-plant-disease-detection.onrender.com",
+        "blogLink": "https://medium.com/@karanpatel230471/transfer-learning-fdeef218eed8"
     },
     {
         "name": "Kashish Jhala",
@@ -263,42 +287,48 @@
         "section": "CSIT1 III Year",
         "title": "AI-Powered Data Analyst",
         "description": "An AI-powered data analyst system uses deep learning techniques to automatically analyze large datasets, identify patterns, and generate meaningful insights. It can perform tasks like data cleaning, trend prediction, anomaly detection, and visualization, helping users make data-driven decisions without manual analysis.",
-        "link": "https://ai-powered-data-analyst-2.onrender.com"
+        "link": "https://ai-powered-data-analyst-2.onrender.com",
+        "blogLink": "https://kriparaghuvanshi55.blogspot.com/2026/05/supervised-vs-unsupervised-learning-in.html,   https://kriparaghuvanshi55.blogspot.com/2026/05/machine-learning-simple-guide.html"
     },
     {
         "name": "Krishna Gupta",
         "section": "CSIT1 III Year",
         "title": "AI Resume Matchmaker",
         "description": "AI Resume Matchmaker is a machine learning\u2013based web application that analyzes resumes and job descriptions to generate a compatibility score. It helps recruiters quickly screen candidates and provides insights to improve resumes.",
-        "link": "https://ai-resume-matcher-k743.onrender.com"
+        "link": "https://ai-resume-matcher-k743.onrender.com",
+        "blogLink": "https://medium.com/@krishnagupta52784/understanding-inception-network-without-the-math-6b929518d2c7"
     },
     {
         "name": "Krishna Khirbadodiya",
         "section": "CSIT1 III Year",
         "title": "Urban Heat Island (UHI) Mitigation & Satellite Analytics Dashboard",
         "description": "A data-driven civic-tech platform designed to analyze the relationship between rapid urbanization and thermal retention in Indian metropolitan areas. By leveraging high-resolution satellite imagery from NASA (Landsat-8/9) and ESA (Sentinel-2) via the Microsoft Planetary Computer, this tool provides a multi-temporal analysis of Land Surface Temperature (LST) and Vegetation Density (NDVI). The project features a Spatial-Aware Random Forest model that allows urban planners to simulate \"what-if\" scenarios, predicting the cooling impact of green-cover restoration to drive climate-resilient municipal policy.",
-        "link": "https://urban-heat-island-analyzer.onrender.com"
+        "link": "https://urban-heat-island-analyzer.onrender.com",
+        "blogLink": "https://medium.com/@krishnakhirbadodiya/beyond-the-route-the-machine-learning-architecture-powering-google-maps-10f5b798abea"
     },
     {
         "name": "Krutika Dakhre",
         "section": "CSIT1 III Year",
         "title": "AI text summarizer",
         "description": "An advanced AI-powered text summarizer that uses state-of-the-art NLP models to instantly condense long articles and PDF documents. Features a modern dark-mode UI, keyword extraction, and easy download options.",
-        "link": "https://ai-text-summarizer-8.onrender.com/"
+        "link": "https://ai-text-summarizer-8.onrender.com/",
+        "blogLink": "https://medium.com/@dakhrekrutika/convolution-layer-in-cnn-the-building-block-of-computer-vision-b2ada47faa61"
     },
     {
         "name": "Lakshya Jain",
         "section": "CSIT1 III Year",
         "title": "Data-Driven Performance Analyzer",
         "description": "Used For Finding Performance Of The Data Given By the Users And Also Make It Simpler For Analysis By Giving Graphs",
-        "link": "https://my-performance-app-vyappcfhlmcwb6aie6g6d5g.streamlit.app/"
+        "link": "https://my-performance-app-vyappcfhlmcwb6aie6g6d5g.streamlit.app/",
+        "blogLink": "https://medium.com/p/924da675e41e?postPublishedType=initial"
     },
     {
         "name": "Lav Bhatia",
         "section": "CSIT1 III Year",
         "title": "Heart Desease Prediction App",
         "description": "This project is a website that uses machine learning to figure out if someone is likely to have heart disease. It looks at things like how old the person's if they are a man or a woman what kind of chest pain they have their blood pressure and other health things. The website uses something called the Support Vector Machine algorithm to make predictions. This algorithm is really good at looking at lots of information and making decisions.\n\nThe website lets people put in their health information like their age, sex and blood pressure. It also asks about things like chest pain and cholesterol levels. The website then looks at all this information. Uses it to make a prediction. It does this by using the steps it used when it was learning from other peoples health information.\n\nThe part of the website that people do not see is built using something called Flask. This makes the website small and easy to use. When someone puts in their health information the website uses a tool to make a prediction right away. It then tells the person if they are likely to have heart disease or not.\n\nWhen someone puts in their information the website says one of two things:\n\n* No Heart Disease Detected \u2705\n\n* Risk of Heart Disease \u26a0\ufe0f\n\nThis project shows how machine learning can be used in real life to help people. It focuses on making predictions letting people use the website and putting all the pieces together to make something that works. The machine learning model is used to predict heart disease and the project is, about making this model work well. The heart disease prediction is the goal of the project.",
-        "link": "https://heart-disease-prediction-app-3kwfott2gsijnctjiwud27.streamlit.app/"
+        "link": "https://heart-disease-prediction-app-3kwfott2gsijnctjiwud27.streamlit.app/",
+        "blogLink": "https://medium.com/@lavbhatia231348/understanding-google-inferencing-in-machine-learning-a-complete-guide-626603a185b0"
     },
     {
         "name": "Manasvi sohani",
@@ -312,14 +342,16 @@
         "section": "CSIT1 III Year",
         "title": "Resume Analyzer",
         "description": "Project Description: Resume Analyzer (AI-Powered)\n\nThe Resume Analyzer is an intelligent web-based application designed to evaluate and enhance resumes using Machine Learning (ML) and Natural Language Processing (NLP) techniques. The system allows users to upload resumes in PDF or DOCX format or input text manually, and then performs a detailed analysis to assess resume quality and effectiveness.\n\nThe application uses advanced NLP methods to extract key skills from the resume and compares them against industry-relevant requirements. It employs a TF-IDF vectorization technique combined with Logistic Regression to classify resumes into categories such as Good, Average, or Poor, simulating the behavior of real-world Applicant Tracking Systems (ATS).\n\nIn addition to scoring, the system provides actionable suggestions to improve resume content, including grammar corrections, better use of action verbs, formatting improvements, and structure optimization. A key feature of the application is its ability to match resumes with job descriptions by calculating similarity scores using cosine similarity, helping users understand how well their resume aligns with a specific job role.\n\nThe project also identifies missing skills and highlights areas that need improvement to increase ATS compatibility. Furthermore, users can download a comprehensive PDF report containing the complete analysis and recommendations.\n\nBuilt using Python and Flask for the backend, along with scikit-learn and NLTK for ML/NLP processing, and standard web technologies for the frontend, this project demonstrates a practical implementation of AI in career development tools.",
-        "link": "https://resume-analyser-nu-eosin.vercel.app/"
+        "link": "https://resume-analyser-nu-eosin.vercel.app/",
+        "blogLink": "https://nlpforbeginners1705.blogspot.com/2026/05/natural-language-processing-nlp.html"
     },
     {
         "name": "Mansi Wahane",
         "section": "CSIT1 III Year",
         "title": "laptop-price-prediction-project",
         "description": "The Laptop Price Prediction System is a machine learning-based project developed to estimate the price of a laptop based on its specifications. With the rapid growth of the electronics market, it has become difficult for users to determine the fair price of laptops with varying configurations. This project aims to solve this problem by building a predictive model that analyzes key features such as processor type, RAM, storage, GPU, screen size, and brand.\n\nThe system uses supervised machine learning algorithms to train a model on a dataset of laptops and their corresponding prices. After training, the model can predict the price of a new laptop when the user inputs its specifications. This helps customers make informed purchasing decisions and also assists sellers in pricing their products competitively.",
-        "link": "https://laptop-price-prediction-project-4.onrender.com"
+        "link": "https://laptop-price-prediction-project-4.onrender.com",
+        "blogLink": "https://medium.com/@mansiwahane2425/supervised-vs-unsupervised-learning-understanding-the-core-of-machine-learning-67ad260c73be"
     },
     {
         "name": "MAYANK ANJANA",
@@ -501,7 +533,8 @@
         "section": "CSIT1 III Year",
         "title": "Research-Paper-Content-Generator",
         "description": "Academic Writing Workspace,\nResearch Paper Content Generator,\nGenerate structured academic research paper content from a topic using a formal, research-oriented writing style.\n\nGenerated sections\nTitle, Abstract, Introduction, Literature Review, Methodology, Results & Discussion, and Conclusion.",
-        "link": "https://research-paper-content-generator.onrender.com"
+        "link": "https://research-paper-content-generator.onrender.com",
+        "blogLink": "https://medium.com/@tanishgupta7988/time-series-analysis-b4692a1b7a47"
     },
     {
         "name": "Tanisha Jain",
@@ -515,7 +548,8 @@
         "section": "CSIT1 III Year",
         "title": "Smart Resume Screener",
         "description": "\u201cThis project is a Smart Resume Screening System that uses Machine Learning to automatically analyze resumes and check how well they match a job role.\u201d\n\n1> How it Works- \u201cFirst, the system takes the resume and converts it into text. Then it cleans the text and extracts important information like skills. After that, we use a Machine Learning technique called TF-IDF to convert the text into numbers. Finally, a Logistic Regression model analyzes it and gives a match score and recommendation.\u201d\n\n2> Output Explanation- \u201cThe system shows: Match percentage (like 75%) Skills found in the resume Final suggestion: Suitable or needs improvement\u201d\n\n3> Technologies Used- \u201cWe used Python, Flask for backend, and Machine Learning techniques like TF-IDF and Logistic Regression.\u201d\n\n4> Real-Life Use- \u201cThis system can help HR teams shortlist candidates faster and reduce manual work.\u201d",
-        "link": "https://github.com/kariyatanisha/silver-funicular"
+        "link": "https://github.com/kariyatanisha/silver-funicular",
+        "blogLink": "https://medium.com/@kariatanisha8/reinforcement-learning-teaching-machines-through-rewards-and-experience-c242746aed2f"
     },
     {
         "name": "Tanvi Shrivastava",

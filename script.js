@@ -28,28 +28,42 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // Score descriptions: sweet spot (80-500 chars) ranks highest,
-    // too short or excessively long descriptions rank lower.
+    // Helper to score description quality
     function scoreDescription(desc) {
-        if (!desc) return 0;
-        const len = desc.trim().length;
-        if (len < 20) return 0;
-        if (len < 50) return 1;
-        if (len < 80) return 2;
-        if (len <= 500) return 4;   // sweet spot
+        if (!desc || desc.trim() === '' || desc.toLowerCase() === 'none') return 0; // empty
+        const len = desc.length;
+        if (len < 30) return 1;     // too short
+        if (len >= 80 && len <= 500) return 4; // perfect length
         if (len <= 800) return 3;   // good but long
         return 2;                   // excessively long
     }
 
+    // Unified scoring system for holistic sorting
+    function calculateStudentScore(student) {
+        let score = 0;
+        
+        // 1. Has Blog (Highest Priority)
+        if (student.blogLink && student.blogLink !== '#') score += 100;
+        
+        // 2. Has Working ML Project (Highest Priority)
+        if (student.link && student.link !== '#') score += 100;
+        
+        // 3. Great Description Quality
+        score += scoreDescription(student.description) * 10;
+        
+        // 4. Meaningful Title (Avoid generic placeholders)
+        const title = student.title || '';
+        const tLower = title.toLowerCase().trim();
+        if (tLower && tLower !== 'none' && tLower !== 'ml project' && tLower !== 'not specified' && tLower !== 'machine learning') {
+            score += 10;
+        }
+        
+        return score;
+    }
+
     function sortByDescriptionQuality(students) {
         return [...students].sort((a, b) => {
-            const sa = scoreDescription(a.description);
-            const sb = scoreDescription(b.description);
-            if (sb !== sa) return sb - sa; // higher score first
-            // tie-break: prefer ones with a deployment link
-            const la = (a.link && a.link !== '#') ? 1 : 0;
-            const lb = (b.link && b.link !== '#') ? 1 : 0;
-            return lb - la;
+            return calculateStudentScore(b) - calculateStudentScore(a);
         });
     }
 
@@ -130,6 +144,11 @@ document.addEventListener('DOMContentLoaded', () => {
                                class="action-btn btn-deploy ${!hasProjectLink ? 'disabled' : ''}" 
                                onclick="event.stopPropagation(); ${!hasProjectLink ? 'event.preventDefault();' : ''}">
                                 <i class="ph ph-arrow-square-out"></i> ${hasProjectLink ? 'View Deployed Project' : 'Not Deployed'}
+                            </a>
+                            <a href="${student.blogLink ? escapeHtml(student.blogLink) : '#'}" target="_blank" rel="noopener noreferrer" 
+                               class="action-btn btn-secondary ${!student.blogLink ? 'disabled' : ''}" 
+                               onclick="event.stopPropagation(); ${!student.blogLink ? 'event.preventDefault();' : ''}">
+                                <i class="ph ph-article"></i> Blog
                             </a>
                         </div>
                     </div>

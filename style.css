@@ -559,13 +559,13 @@ body {
 /* Action Buttons Container */
 .action-buttons {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 12px;
     margin-top: 4px;
 }
 
 /* ===========================
-   CATCHY Deploy Button — Gradient Glow
+   Base Action Button
    =========================== */
 .action-btn {
     display: flex;
@@ -577,19 +577,11 @@ body {
     font-size: 0.95rem;
     font-weight: 600;
     text-decoration: none;
-    color: #fff;
-    background: linear-gradient(135deg, var(--accent-primary), #0ea5e9, var(--accent-secondary));
-    background-size: 200% 200%;
-    border: none;
-    position: relative;
-    overflow: hidden;
+    cursor: pointer;
     transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
                 box-shadow 0.3s ease,
-                background-position 0.5s ease;
-    box-shadow: 0 4px 20px rgba(20, 184, 166, 0.25),
-                0 0 0 1px rgba(20, 184, 166, 0.15);
-    letter-spacing: 0.3px;
-    cursor: pointer;
+                background-color 0.3s ease,
+                border-color 0.3s ease;
 }
 
 .action-btn i {
@@ -597,8 +589,46 @@ body {
     transition: transform 0.3s ease;
 }
 
+.action-btn:active {
+    transform: translateY(-1px) scale(0.99);
+}
+
+/* ===========================
+   Secondary Button (Blog)
+   =========================== */
+.btn-secondary {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--border-color);
+    color: var(--text-primary);
+}
+
+.btn-secondary:hover {
+    transform: translateY(-2px);
+    background: rgba(59, 130, 246, 0.2);
+    border-color: rgba(59, 130, 246, 0.5);
+    color: #93c5fd;
+}
+
+/* ===========================
+   CATCHY Deploy Button — Gradient Glow
+   =========================== */
+.btn-deploy {
+    color: #fff;
+    background: linear-gradient(135deg, var(--accent-primary), #0ea5e9, var(--accent-secondary));
+    background-size: 200% 200%;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(20, 184, 166, 0.25),
+                0 0 0 1px rgba(20, 184, 166, 0.15);
+    letter-spacing: 0.3px;
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+                box-shadow 0.3s ease,
+                background-position 0.5s ease;
+}
+
 /* Shimmer sweep effect */
-.action-btn::after {
+.btn-deploy::after {
     content: '';
     position: absolute;
     top: 0;
@@ -622,7 +652,7 @@ body {
     100% { transform: translateX(200%); }
 }
 
-.action-btn:hover {
+.btn-deploy:hover {
     transform: translateY(-3px) scale(1.02);
     box-shadow: 0 8px 30px rgba(20, 184, 166, 0.4),
                 0 0 0 1px rgba(20, 184, 166, 0.3),
@@ -630,12 +660,8 @@ body {
     background-position: 100% 0;
 }
 
-.action-btn:hover i {
+.btn-deploy:hover i {
     transform: translateX(2px) rotate(-10deg);
-}
-
-.action-btn:active {
-    transform: translateY(-1px) scale(0.99);
 }
 
 /* Live dot inside button */
@@ -660,7 +686,7 @@ body {
     color: var(--text-muted);
 }
 
-.action-btn.disabled::after {
+.btn-deploy.disabled::after {
     display: none;
 }
 
@@ -881,7 +907,7 @@ body {
     }
 
     /* Disable infinite animations that choke the GPU on mobile */
-    .action-btn::after {
+    .btn-deploy::after {
         display: none !important;
         animation: none !important;
     }
